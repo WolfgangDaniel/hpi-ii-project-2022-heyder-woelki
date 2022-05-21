@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package bakdata.lobby.v1;
+
+message Lobby {
+  string id = 1;
+}
