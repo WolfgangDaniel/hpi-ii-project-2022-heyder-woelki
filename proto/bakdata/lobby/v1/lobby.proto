@@ -24,4 +24,5 @@ message Lobby {
     int32 to = 2;
     string year = 3;
   }
+  LobbyMoneySpent lobbyMoneySpent = 9;
 }
