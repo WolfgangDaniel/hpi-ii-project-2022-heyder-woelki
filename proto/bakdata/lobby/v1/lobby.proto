@@ -4,4 +4,24 @@ package bakdata.lobby.v1;
 
 message Lobby {
   string id = 1;
+  string companyName = 2;
+  message LobbyEmployeeCount {
+    int32 from = 1;
+    int32 to = 2;
+  }
+  LobbyEmployeeCount lobbyEmployeeCount = 3;
+  message EmployeeNames {
+    string firstName = 1;
+    string lastName = 2;
+  }
+  repeated EmployeeNames lobbyEmployyeNames = 4;
+  string reasonForLobbying = 5;
+  repeated string memberships = 6;
+  repeated string donators = 7;
+  repeated string interests = 8;
+  message LobyyingMoneySpent {
+    int32 from = 1;
+    int32 to = 2;
+    string year = 3;
+  }
 }
