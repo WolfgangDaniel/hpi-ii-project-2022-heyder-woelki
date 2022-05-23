@@ -6,7 +6,7 @@ message Lobby {
   string id = 1;
   string companyName = 2;
   message LobbyEmployeeCount {
-    int32 from = 1;
+    int32 start = 1;
     int32 to = 2;
   }
   LobbyEmployeeCount lobbyEmployeeCount = 3;
@@ -19,10 +19,11 @@ message Lobby {
   repeated string memberships = 6;
   repeated string donators = 7;
   repeated string interests = 8;
-  message LobyyingMoneySpent {
-    int32 from = 1;
+  message LobbyMoneySpent {
+    int32 start = 1;
     int32 to = 2;
     string year = 3;
+    string reason = 4;
   }
   LobbyMoneySpent lobbyMoneySpent = 9;
 }
