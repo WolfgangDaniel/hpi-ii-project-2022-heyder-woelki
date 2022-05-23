@@ -7,7 +7,7 @@ from confluent_kafka.serialization import StringSerializer
 
 from build.gen.bakdata.lobby.v1 import lobby_pb2
 from build.gen.bakdata.lobby.v1.lobby_pb2 import Lobby
-from rb_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
+from lobby_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
 
 log = logging.getLogger(__name__)
 
