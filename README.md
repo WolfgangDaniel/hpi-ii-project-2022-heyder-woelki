@@ -1,3 +1,9 @@
+# Lobby website
+to start the crawling of the lobby website 
+```shell
+poetry run python lobby_crawler/main.py
+```
+
 # HPI information integration project SoSe 2022
 
 This repository provides a code base for the information integration course in the summer semester of 2022. Below you
