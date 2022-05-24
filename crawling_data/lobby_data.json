@@ -1,0 +1,1713 @@
+[
+    {
+        "partitionID": 0,
+        "offset": 4323,
+        "timestamp": 1653388294581,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000063",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000063",
+                "companyName": "asr Allianz selbständiger Reiseunternehmen Bundesverband e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Als Vertretung des Mittelstandes in der Tourismuswirtschaft hat der Verband den Zweck, die gewerbepolitischen, beruflichen, wirtschaftlichen und rechtlichen Belang seiner Mitgliedsunternehmen und des Berufsstandes zu fördern und zu vertreten. Der asr Allianz selbständiger Reiseunternehmen - Bundesverband e.V. unterstützt als Reiseverband Maßnahmen zur Förderung von umweltschonendem und sozialverträglichem Tourismus. Der Verband enthält sich jeder parteipolitischen Betätigung. Der asr ist seit dem 31.05.1976 die Vertretung des touristischen Mittelstands. Der asr Bundesverband e.V. vertritt den mittelständischen Tourismus gegenüber der Politik und engagiert sich für Chancengleichheit des Mittelstandes im Bereich Reisebüro, Reiseveranstalter und touristische Dienstleistungen.\r\n\r\nZu seinen Aufgaben gehören insbesondere:\r\n\r\n- die Wahrnehmung, Geltendmachung und Durchsetzung der Belange gegenüber allen Unternehmen und Institutionen, die direkt oder indirekt von der beruflichen und gewerblichen Tätigkeit mittelständischer Reiseunternehmen berührt werden\r\n- die Beratung und Förderung der Mitglieder:innen in ihren gewerblichen und beruflichen Angelegenheiten. Der Verband kann bei Streitigkeiten zwischen Mitglieder:innen als Berater und Vermittler angerufen werden mit dem Ziel, einen Konsens herbeizuführen\r\n- die Übernahme der Vertretung von ordentlichen Verbandsmitglieder:innen, wenn der Gegenstand der Vertretung von allgemeinem Verbandsinteresse ist. Die Entscheidung trifft das Präsidium\r\ndie Förderung des fachlichen Wissens in der Tourismuswirtschaft\r\n- die Bekämpfung unlauteren Wettbewerbs\r\n- die Information der Mitglieder über wichtige, die Reisebranche betreffende Angelegenheiten\r\ndie Öffentlichkeit mit der mittelstandspolitischen Bedeutung der Reiseunternehmen vertraut zu machen\r\n- Regierungen, Behörden, Körperschaften, Parteien, Verbände und Öffentlichkeit über allgemeine und besondere Probleme der mittelständischen Reiseunternehmen zu informieren\r\n- Mitgliedsunternehmen bei der Integration von umweltfreundlichem und sozial verantwortlichem Tourismus aktiv zu unterstützen und diese an einen einheitlichen, für die Verbandsmitglieder:innen abgestimmten nationalen wie auch internationalen Standard Umwelt- und sozialverträglichen Reisens so heranzuführen, dass beim Angebot von Leistungen die Wünsche und Bedürfnisse sowohl der Kund:innen als auch die Belange der Natur und der Menschen in den Zielgebieten im Sinne des nachhaltigen Reisens Berücksichtigung finden.\r\n\r\nMitgliederstruktur:\r\n- Ordentliche Mitglieder (Reisemittler, Reiseveranstalter, vielfach auch mit registrierten Filialbetrieben)\r\n- Außerordentliche Mitglieder (Mittelständische Touristikunternehmen, die weder Mittler noch Veranstalter sind; Kooperationen mit ihren Mitgliedern)\r\n- Fördernde Mitglieder (Firmenmitgliedschaften, z.B. von Versicherun-gen und Hotels, Personenmitgliedschaften, Internationale Mitglieder)\r\n- Ehrenmitgliedschaften\r\n- Gegenseitige Mitgliedschaften (i.d.R. andere Verbände)\r\n\r\nDie asr Allianz selbständiger Reiseunternehmen vertritt die Interessen von mehr als 3500 mittelständischen Tourismusbetrieben.\r\n",
+                "lobbyMoneySpent": {
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4324,
+        "timestamp": 1653388294607,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000060",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000060",
+                "companyName": "BundeswehrGrün e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "BundeswehrGrün stellt sich in die Tradition der Inneren Führung der Bundeswehr und soll dabei den Prinzipien der Staatsbürger*innen in Uniform sowie dem Bild der aktiven Bürger*innen zur Geltung und Entfaltung verhelfen, wobei die Vereinigung weder Bestandteil noch assoziativer Teil der Bundeswehr ist.\r\nAls inhärenter Bestandteil der verfassungsmäßigen Strukturen der Bundesrepublik Deutschland ist die Bundeswehr eine auch in internationalen Bündnissen verankerte Parlamentsarmee. Die daraus resultierende Fürsorgepflicht des Parlaments gegenüber den aktiven und ehemaligen Soldat*innen und Zivilbeschäftigten und die Verpflichtung, sie entsprechend ihrem Auftrag und ihren Aufgaben personell und materiell auszustatten, verlangt eine aktive Auseinandersetzung mit den Streitkräften.\r\nDiese aktive Auseinandersetzung ist wesentlich in einer Demokratie, um die Bundeswehr in unserer Gesellschaft fest zu verankern und vielfältig zu gestalten und bedingt zugleich unter anderem die informierte, transparente und vor allem gesellschaftlich sichtbare Darstellung der rechtlichen Grundsätze, Aufgaben, Fähigkeiten und Leistungen der Bundeswehr einschließlich der Aufarbeitung ihres Einsatzes.\r\nBundeswehrGrün strebt danach, diese Auseinandersetzung zu fördern. Der Verein soll eine kritische und informierte Diskussion ermöglichen und insbesondere zwischen der Partei BÜNDNIS 90/DIE GRÜNEN und dieser Partei nahestehenden Personen, Vereinen, Verbänden und Organisationen sowie aktiven und ehemaligen Soldat*innen und den Zivilbeschäftigten der Bundeswehr eine Vertrauensbasis schaffen.",
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4325,
+        "timestamp": 1653388294633,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000058",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000058",
+                "companyName": "Survival International",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Survival International ist die globale Bewegung für indigene Völker. Wir kämpfen weltweit für ihr Überleben und die Anerkennung ihrer Land- und Menschenrechte.\r\n\r\nWir arbeiten in Partnerschaft mit indigenen Gemeinden weltweit und recherchieren, dokumentieren und veröffentlichen Rechtsverletzungen an indigenen Völkern. Wir führen Kampagnen, um die Verantwortlichen zur Rechenschaft zu ziehen. Und wir betreiben Lobbyarbeit auf lokaler, nationaler und internationaler Ebene, um ihre international anerkannten Rechte durchzusetzen. ",
+                "lobbyMoneySpent": {
+                    "start": 10001,
+                    "to": 20000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4326,
+        "timestamp": 1653388294655,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000057",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000057",
+                "companyName": "QueerBw",
+                "lobbyEmployeeCount": {
+                    "start": 11,
+                    "to": 20
+                },
+                "reasonForLobbying": "QueerBw ist die Interessenvertretung der homo- und bisexuellen, sowie trans*- und untergeschlechtlichen Angehörigen der Bundeswehr. \r\nWir setzen uns für eine ernsthafte Aufarbeitung von der jahrzehntelangen Verfolgung homosexueller Soldat:innen in der Bundeswehr und fordern eine Entschädigungszahlung des Bundes. \r\nWir setzen uns für die wissenschaftliche Erfassung der aktuellen und historischen Situation von Queers in der Bundeswehr ein. \r\nWir setzen uns für adäquaten Schutz von Queers in der Bundeswehr ein und fordern die Umsetzung von Rechtsansprüchen in der Bundeswehr. Insbesondere die Beachtung des dritten Geschlechtseintrages ist bisher unzureichend erfüllt. \r\nWir setzen uns dafür ein, dass internationale Kooperationen an Menschenrechte geknüpft sind. Dazu zählt auch die militärische Zusammenarbeit. ",
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4327,
+        "timestamp": 1653388294668,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000056",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000056",
+                "companyName": "UFA GmbH",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Hariri, Christiane"
+                ],
+                "reasonForLobbying": "Vertretung unserer produzentischen Unternehmensinteressen (einzelfallbezogene Ansprache von Politiker:innen und Regierungsvertreter:innen in relevanten Fällen).",
+                "memberships": [
+                    "Allianz Deutscher Produzenten Film & Fernsehen e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 40001,
+                    "to": 50000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4328,
+        "timestamp": 1653388294683,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000055",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000055",
+                "companyName": "Finanzplatz München Initiative",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Bayern mit seinem Zentrum München ist einer der bedeutendsten Finanzplätze Europas, der größte Versicherungsplatz Deutschlands, der zweitgrößte deutsche Bankenstandort und führend für Private Equity, Venture Capital, Leasing sowie Asset Management. In der Finanzplatz München Initiative haben sich alle wichtigen Unternehmen, Verbände, Institutionen sowie wissenschaftliche und staatliche Einrichtungen aus der Finanzbranche zusammengeschlossen, um mit einer Stimme zu sprechen. Gegründet 2000 unter maßgeblichem Engagement des bayerischen Wirtschaftsministeriums zählt die Initiative heute fünfzig Teilnehmer und damit mehr als jede andere Finanzplatzinitiative in Deutschland. Die Bandbreite der Themen ist auch wegen der heterogenen Zusammensetzung der Teilnehmer weit. Positionspapiere zu Sustainable Finance, Basel III und Unternehmensfinanzierung im weiteren Sinn sind erarbeitet, immer im Bemühen, die Interessen von Real- und Finanzwirtschaft gemeinsam zu berücksichtigen und auszugleichen. Die gefundenen Lösungen werden für den politischen Entscheidungsfindungsprozess aufbereitet. Gutachten - jüngst zum programmierbaren Euro - oder zum Thema \"Digitale Fairness durchsetzen\" unterstützen die inhaltliche Arbeit der fpmi.",
+                "lobbyMoneySpent": {
+                    "start": 190001,
+                    "to": 200000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4329,
+        "timestamp": 1653388294699,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000054",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000054",
+                "companyName": "Gesamtverband Deutscher Holzhandel e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "König , Johannes"
+                ],
+                "reasonForLobbying": "Der Gesamtverband Deutscher Holzhandel e.V. (GD Holz) ist der kooperationsübergreifende und repräsentative Branchenverband des deutschen Holzfachhandels mit ca. 800 Mitgliedsunternehmen. Er vertritt die wirtschaftlichen Interessen des Holzfachhandels und seine Vertriebswege gegenüber Wirtschaft, Politik, Medien, Verbänden und Industrie. Als Fachverband nimmt er die Interessen seiner Mitgliedsunternehmen in den Fachbereichen Holzgroßhandel, Holzaußenhandel, Holzeinzelhandel, Rohholzhandel und Furnierhandel wahr. Der GD Holz versteht sich als bundesweites Netzwerk, das die Kommunikation und den Austausch der Mitglieder untereinander unter Einbeziehung seiner Industriepartner fördert. ",
+                "memberships": [
+                    "BGA, DHWR, ETTF"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 40001,
+                    "to": 50000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4330,
+        "timestamp": 1653388294715,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000053",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000053",
+                "companyName": "Verband der Deutschen Biokraftstoffindustrie e.V (VDB)",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Baumann, Elmar",
+                    "Brühning, Frank",
+                    "Grey, Maximilian",
+                    "Zühlke, Marco",
+                    "Strauß, Cornelia"
+                ],
+                "reasonForLobbying": "Seit 2001 vertritt der VDB die wichtigsten deutschen Biokraftstoffhersteller gegenüber Politik und Öffentlichkeit auf nationaler und europäischer Ebene. Die Mitgliedsunternehmen des Verbandes stehen  für Gegenwart und Zukunft der nachhaltigen Mobilität in Deutschland. Der VDB stellt sich im Wesentlichen zwei Aufgaben: wettbewerbsorientierte Rahmenbedingungen mitzugestalten und die Branche nach außen zu vertreten.",
+                "memberships": [
+                    "BBE Bundesverband BioEnergie e.V.",
+                    "EBB European Biodiesel Board",
+                    "Eurosolar e.V.",
+                    "AGQM Arbeitsgemeinschaft Qualitätsmanagement Biodiesel e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 710001,
+                    "to": 720000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4331,
+        "timestamp": 1653388294736,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000052",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000052",
+                "companyName": "Kaspersky Labs GmbH",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Michels, Jochen"
+                ],
+                "reasonForLobbying": "Bereitstellung technischer Expertise in den Bereichen IT- und Cybersicherheit, Datenschutz, Digitalisierung im politischen Willensbildungeprozess.",
+                "memberships": [
+                    "Bitkom e.V.",
+                    "Deutschland sicher im Netz e. V. (DsiN)",
+                    "Münchner Kreis e. V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 100001,
+                    "to": 110000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4332,
+        "timestamp": 1653388294752,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000050",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000050",
+                "companyName": "International Union of Marine Insurance (IUMI)",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die International Union of Marine Insurance (IUMI) ist ein Wirtschaftsverband, der von und für seine Mitglieder geführt wird. IUMIs Mitglieder sind über 40 nationale (Transport-)Versicherungsverbände aus nahezu allen Kontinenten. IUMI vertritt dementsprechend nationale und internationale Transportversicherer und befasst sich mit Themen, die für die internationale Transportversicherungsbranche von Interesse sind.\r\n\r\nIUMI bietet dabei ein Forum für Diskussionen und fördert den Austausch von Ideen gemeinsamen Interesses für Transportversicherer und -rückversicherer. Des Weiteren vertritt IUMI die Interessen seiner Mitglieder bei internationalen Organisationen wie der International Maritime Organization (IMO) und der EU. \r\n\r\nRelevante Themen, an welchen IUMI arbeitet, können der IUMI Policy Agenda entnommen werden: https://iumi.com/opinions/policy-agenda",
+                "memberships": [
+                    "IUMI hat den bei der International Maritime Organization (IMO) den \"consultative status\" und kann dadurch an IMO Committee Meetings teilnehmen sowie Papiere einreichen. "
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4333,
+        "timestamp": 1653388294763,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000049",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000049",
+                "companyName": "Digitale Gesellschaft",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die Digitale Gesellschaft e.V. ist ein gemeinnütziger Verein, der sich seit seiner Gründung im Jahr 2010 für Grundrechte und Verbraucherschutz im digitalen Raum einsetzt. Zum Erhalt und zur Fortentwicklung einer offenen digitalen Gesellschaft engagiert sich der Verein gegen den Rückbau von Freiheitsrechten im Netz, gegen alle Formen von Überwachung und für die Realisierung digitaler Potentiale bei Wissenszugang, Transparenz, Partizipation und kreativer Entfaltung.",
+                "memberships": [
+                    "EDRi - European Digital Rights"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 10001,
+                    "to": 20000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4334,
+        "timestamp": 1653388294778,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000047",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000047",
+                "companyName": "Deutsches Psychotherapeuten Netzwerk",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Ziel des Vereins ist die Unterstützung psychotherapeutisch Tätiger in ihrer täglichen Arbeit. Dazu zählt auch, die Mitglieder über wichtige gesetzliche Änderungen oder wissenschaftliche Erkenntnisse zu informieren. Gleichzeitig soll der Vernetzungsgedanke gefördert werden. Berufliche Interessen der Mitglieder werden gegenüber allen Institutionen vertreten, die therapeutische Arbeit beeinflussen oder mitbestimmen können. Das Bild des Berufs soll in der Öffentlichkeit nachhaltig positiv beeinflusst werden.\r\n\r\nDer Satzungszweck wird verwirklicht durch Schaffung von Vernetzungsmaßnahmen, Unterstützung von Psychotherapeuten und Patienten bei der Vergabe freier Therapieplätze, Schaffung eines Terminvergabesystems, einer elektronischen Termindatenbank zum Eintragen freier Termine, regelmäßige Informationsschreiben, Informationsveranstaltungen und der Durchführung wissenschaftlicher Veranstaltungen und Fortbildungsveranstaltungen.\r\n\r\nDer Verband versteht sich als humanistisch, basisdemokratisch und solidarisch mit anderen Interessenvertretungen im Gesundheitswesen. Er sieht sich somit als notwendige Ergänzung zu bestehenden Organisationen und nicht als deren Konkurrenz.\r\n\r\nInteressenbereiche\r\n- Unterstützung psychotherapeutisch Tätiger in Belangen der täglichen Arbeit;\r\n- Vernetzung psychotherapeutischer Praxen zur Verbesserung der psy- chotherapeutischen Versorgung;\r\n- berufspolitische Interessenvertretung der Mitglieder sowie\r\n- Öffentlichkeitsarbeit zur Darstellung psychotherapeutischer Arbeit in der Öffentlichkeit.\r\n",
+                "lobbyMoneySpent": {
+                    "start": 170001,
+                    "to": 180000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4335,
+        "timestamp": 1653388294797,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000046",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000046",
+                "companyName": "European Justice Forum AISBL",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "EJF’s main goal is to promote fair, balanced, transparent and efficient civil justice systems in Europe.\r\n\r\nTo do so, EJF leads and promotes open dialogues on collective redress and effective dispute resolution mechanisms. Our main discussion partners are from the political, academic, civil society and business worlds, both at European and national levels.\r\n\r\nEJF adopts an holistic approach and looks at the entire process from dispute detection, out-of-court dispute resolution to in-court dispute resolution, to ensure the legal environment in Europe protects both consumers and businesses alike, and that those with a legitimate grievance have access to as well as delivery of justice.\r\n\r\nEJF promotes systems in which innovation and companies can flourish and which enhance the international competitiveness of Europe.",
+                "lobbyMoneySpent": {
+                    "start": 370001,
+                    "to": 380000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4336,
+        "timestamp": 1653388294819,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000045",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000045",
+                "companyName": "Vereinigung für Bäder- und Klimakunde e.V.",
+                "lobbyEmployeeCount": {},
+                "reasonForLobbying": "Die Vereinigung für Bäder- und Klimakunde ist nicht auf wirtschaftlichen Erwerb abgestellt, sondern dient der Förderung von Wissenschaft und Forschung im Bereich des Heilbäderwesens als Teil und\r\nzur Unterstützung des öffentlichen Gesundheitswesens.\r\nDer Satzungszweck wird verwirklicht, insbesondere durch\r\na) die Durchführung wissenschaftlicher Veranstaltungen und Forschungsvorhaben;\r\nb) die Vertreter der experimentellen Forschung und der Kurortmedizinischen Praxis als\r\nTeil des öffentlichen Gesundheitswesens einander näherzubringen und Beziehungen zu\r\nden Gesellschaften einzelner Spezialgebiete zu pflegen.\r\nDer Verein ist selbstlos tätig; er verfolgt nicht in erster Linie eigenwirtschaftliche Zwecke.",
+                "memberships": [
+                    "Deutscher Heilbäderverband e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 20001,
+                    "to": 30000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4337,
+        "timestamp": 1653388294841,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000043",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000043",
+                "companyName": "Berufsverband für Integrations- und Berufssprachkurse BVIB e.V. ",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Im Berufsverband BVIB e.V. haben sich Lehrkräfte, Kurskoordinator*innen/ Fachbereichsleitungen und Sprachkursträger organisiert, die im Bereich der Integrations- und Berufssprachkurse tätig sind. In diesen, durch das  Bundesamt für Migration und Flüchtlinge (BAMF) geförderten Kursen wird Deutsch als Zweitsprache unterrichtet. Für viele Lernerinnen und Lerner bedeuten diese Kurse die erste Brücke in die deutsche Gesellschaft, Deutschvermittlung ist eine gesellschaftlich relevante Aufgabe. Wichtigste Ziele sind für uns Erhalt und Stärkung der Qualität des Unterrichts und eine Verbesserung der Rahmenbedingungen für unsere Arbeit.\r\n\r\n",
+                "lobbyMoneySpent": {
+                    "start": 30001,
+                    "to": 40000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4338,
+        "timestamp": 1653388294856,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000042",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000042",
+                "companyName": "Verband für Dämmsysteme, Putz und Mörtel e.V. - VDPM",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Austausch mit Abgeordneten zu allen Themen rund um das Bauen",
+                "memberships": [
+                    "Bundesverband Baustoffe - Steine und Erden e.V.",
+                    "Deutsche Gesellschaft für Mauerwerks- und Wohnungsbau e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 20001,
+                    "to": 30000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4339,
+        "timestamp": 1653388294874,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000041",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000041",
+                "companyName": "Verband Sozialer Wettbewerb",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Zweck des Vereins ist es, unlauteren Wettbewerb und Wirtschaftskriminalität im Interesse der Allgemeinheit, der gewerblichen Unternehmen, der freiberuflich Tätigen sowie der Mitglieder zu bekämpfen.",
+                "memberships": [
+                    "IHK Berlin"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4340,
+        "timestamp": 1653388294889,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000040",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000040",
+                "companyName": "SOS - Save Our Spectrum",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die Initiative SOS Save Our Spectrum kämpft für den Erhalt der Funkfrequenzen für Kultur und Medien. Ziel von SOS ist es, Öffentlichkeit, Politik und Administrationen über den Frequenzbedarf von Anwendern drahtloser Produktionsmittel zu informieren, englischer Fachbegriff: PMSE, Programme Making and Special Events. SOS ist eine Nichtregierungsorganisation, die auch auf europäischer Ebene tätig ist und im EU-Transparencyregister unter der Nummer 273304233646-65 geführt wird. Gegründet wurde SOS im Jahr 2015. ",
+                "memberships": [
+                    "Allianz für Rundfunk- und Kulturfrequenzen",
+                    "Wider Spectrum Group "
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4341,
+        "timestamp": 1653388294902,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000039",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000039",
+                "companyName": "Münchner Filmwerkstatt e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die Münchner Filmwerkstatt ist ein eingetragener, gemeinnütziger Verein zur Förderung der Münchner Independent-Film-Szene. Wir organisieren Weiterbildung z.B. in Form von Wochenendseminaren und längerfristigen Lehrgängen. Außerdem produzieren oder unterstützen wir auch selbst gelegentlich kurze und lange Filme.",
+                "memberships": [
+                    "AG Kurzfilm e.V.",
+                    "Bundesverband Jugend und Film e.V.",
+                    "DIE VIELEN Bayern",
+                    "Landesvereinigung Kulturelle Bildung Bayern e.V.",
+                    "MedienCampus Bayern e.V.",
+                    "Netzwerk Freie Szene München e.V.",
+                    "Paritätisches Bildungswerk e.V.",
+                    "Verband bayerischer Filmfestivals e.V.",
+                    "Youth Cinema Network"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4342,
+        "timestamp": 1653388294917,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000038",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000038",
+                "companyName": "Initiative Kulturgut Mobilität e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die Initiative Kulturgut Mobilität e.V. hat sich die Förderung der historischen Aufarbeitung des Themas \"Motorisierte Mobilität\" zur Aufgabe gemacht. Intensivierung der Lobbyarbeit zur Anerkennung des gesetzlich definierten Oldtimers (Automobil, motorisiertes Zweirad, Campingfahrzeuge und Fahrzeuge des öffentlichen Nahverkehrs) sowie alternativer historischer Verkehrsmittel (zu Lande zu Wasser und in der Luft) als Kulturgut mit dem Ziel, einen gesetzlich garantierten Bestandsschutz zu erlangen, um historische mobile Güter vor Restriktionen moderner Verkehrs- und Umweltpolitik wirkungsvoll zu schützen. Dies soll erreicht werden durch die Aufarbeitung des Themas \"Motorisierte Mobilität\" in all ihren kulturellen, sozialen, ethischen und wirtschaftlichen Aspekten sowie die aktive Vermittlung von Kontakten zwischen Betroffenen, Wissenschaft, Wirtschaft und Politik.",
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4343,
+        "timestamp": 1653388294934,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000037",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000037",
+                "companyName": "ProHunde - Berufsverband für professionelles Hundetraining, Verhaltensberatung, Dienstleistungen e. V.",
+                "lobbyEmployeeCount": {
+                    "start": 11,
+                    "to": 20
+                },
+                "reasonForLobbying": "ProHunde ist ein junger Berufsverband, gegründet 2015, der aus der Motivation heraus erwuchs nach aktuellen politischen und gesetzlichen Umbrüchen für den Beruf mündig zu bleiben und nachhaltig Einfluss auf zukünftige Entwicklungen nehmen zu können.\r\nSeit dieser Vision von wenigen Kollegen zu Beginn des Jahres 2015 ist nun einige Zeit des engagierten Aufbaus, der ehrenamtlichen und unermüdlichen Arbeit vergangen und ProHun-de zählt mit über 600 Mitgliedern mittlerweile zu den größten Berufsverbänden in diesem Bereich. \r\nMit großer Überzeugung und Motivation vertritt der Verband die Interessen der Mitglieder nach außen gegenüber der Politik und Öffentlichkeit und agiert gesellschaftspolitisch aufklärend zu wichtigen Themen. Gleichzeitig bietet ProHunde den Mitgliedern im Verband ein vielfältiges Angebot rund um den Beruf und seine Facetten.\r\n\r\nDer Verband macht zur Vermeidung einer Interessenkollision keine eigenen Angebote zum Thema Hundeführerschein, Ausbildung von interessierten Personen usw. Macht jedoch Vorschläge an politisch verantwortliche Stellen.\r\n",
+                "lobbyMoneySpent": {
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4344,
+        "timestamp": 1653388294949,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000036",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000036",
+                "companyName": "Jesuiten-Flüchtlingsdienst Deutschland",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Der Jesuiten-Flüchtlingsdienst engagiert sich seit 1995 in Deutschland für Abschiebungshäftlinge und Menschen mit unsicherem oder ohne Aufenthaltsstatus. Wir leisten Seelsorge und Rechtsberatung in der Abschiebungshaft (Eichstätt und Erding) und in Aufnahmeeinrichtungen für Asylsuchende (Eisenhüttenstadt, München). In Berlin bieten wir Härtefallberatung und Verfahrensberatung bei Aufenthaltsproblemen an. In Bayern beraten und unterstützen wir Gemeinden und Ordensgemeinschaften in allen Fragen rund ums Kirchenasyl. Wir geben geflüchteten Menschen in der Öffentlichkeit eine Stimme und nehmen Stellung zu Entwicklungen in der Flüchtlingspolitik.",
+                "lobbyMoneySpent": {
+                    "start": 10001,
+                    "to": 20000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4345,
+        "timestamp": 1653388294966,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000035",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000035",
+                "companyName": "Arbeitsgemeinschaft katholischer Studentenverbände (AGV) e.V.",
+                "lobbyEmployeeCount": {},
+                "reasonForLobbying": "Die AGV will die Zusammenarbeit der katholischen Studenten und ihrer Verbände zur Förderung und Stärkung des katholischen akademischen Lebens in Deutschland wirkungsvoll und dauerhaft gestalten. Insbesondere strebt sie aus christlicher Verantwortung für Kirche, Staat und Gesellschaft danach\r\n- christliche Grundwerte und Belange im akademischen Bereich zu verwirklichen und zu verteidigen\r\n- gemeinsame Anliegen katholischer Studenten im öffentlichen Leben und gegenüber der Politik zu wahren und zu vertreten\r\n- die kirchliche Mitwirkung im Laienapostolat zu fördern und zu erfüllen\r\nDie AGV koordiniert, unterstützt und fördert dabei die Vielfalt des Wirkens katholischer Studenten und sucht die Einheit in der Vielfalt nach innen und außen zu verdeutlichen.",
+                "memberships": [
+                    "Katholische Akademikerarbeit Deutschlands (KAD)",
+                    "Arbeitsgemeinschaft der katholischen Organisationen Deutschlands (AGKOD)",
+                    "Bund der Deutschen Katholischen Jugend (BDKJ)"
+                ],
+                "lobbyMoneySpent": {
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4346,
+        "timestamp": 1653388294980,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000034",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000034",
+                "companyName": "Bund deutscher Baumschulen (BdB) e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Tegethoff, Marius",
+                    "Sommer, NIels",
+                    "Schilling, Bettina"
+                ],
+                "reasonForLobbying": "Der Bund deutscher Baumschulen ist die Interessenvertretung der deutschen Baumschulwirtschaft. Er setzt sich für gute politische Rahmenbedingungen ein, damit die mittelständisch strukturierte Branche die Produktion von Gehölzen am Standort Deutschland aufrechterhalten und weiterentwickeln kann. Die Branche steht in hoher Wettbewerbsintensität mit dem Ausland.\r\nNeben steuerrechtlichen Fragen stehen in der politischen Arbeit des Verbandes gartenbauliche Themen im Vordergrund. Dazu zählt der Pflanzenschutz, innovative Produktionsverfahren (z.B. Genschere, Digitalisierung, Einsatz von E-Mobilität in der Produktion), Bewahrung bzw. Förderung spezifischer Hilfsmittel zur Produktion (Düngung, Substrate), Erhalt und Ausbau einer standortgerechten grünen Infrastruktur, Förderung der Biodiversität, Förderung der Exportwirtschaft, Begleitung europäischer Rechtsetzung im Zuge der GAP und der Pflanzengesundheitsregulierung sowie der Regelungen bezüglich invalider Arten und fremdländischer Schädlinge. Förderung einer europäischen Strategie grüner Städte.\r\nDarüber hinaus wirbt der Verband gegenüber der Politik für die Ausrichtung von Bundesgartenschauen und Internationalen Gartenbauausstellungen.",
+                "memberships": [
+                    "Bundesverband der Dienstleistungswirtschaft",
+                    "European Nurserystock Association ",
+                    "Gesamtverband der landwirtschaftlichen Arbeitgeberverbände",
+                    "Deutsche Gartenbaugesellschaft "
+                ],
+                "lobbyMoneySpent": {
+                    "start": 100001,
+                    "to": 110000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4347,
+        "timestamp": 1653388294995,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000033",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000033",
+                "companyName": "Bundesinnungsverband Zweirad-Handwerk",
+                "lobbyEmployeeCount": {
+                    "start": 11,
+                    "to": 20
+                },
+                "lobbyEmployyeNames": [
+                    "Lindhorst, Felix"
+                ],
+                "reasonForLobbying": "Interessenvertretung für das Fahrrad und Kraftrad-Gewerbe (Mofa bis Motorrad). Wahrnehmung der branchen- , sozialpolitischen, wirtschaftlichen und rechtlichen Belange im Verkauf und Service von motorisierten und nicht motorisierten Zweirädern.",
+                "memberships": [
+                    "UDH / ZDH"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 20001,
+                    "to": 30000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4348,
+        "timestamp": 1653388295012,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000032",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000032",
+                "companyName": "tabak forum e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Puck, Christian"
+                ],
+                "reasonForLobbying": "Das tabak forum e.V. ist ein Zusammenschluss von 8 mittelständisch strukturierten und\r\nfamiliengeführten Unternehmen.\r\n\r\nDie Mitglieder sind Hersteller und EU-Distributeure von Pfeifentabak, Pfeifen und\r\nPfeifenaccessoires.\r\nDas tabak forum e.V. vertritt die Interessen seiner Mitglieder gegenüber Politik, Medien und\r\nÖffentlichkeit. Es ist im Dialog mit Politik, Ministerien und Medien, führt eine aktive\r\nÖffentlichkeitsarbeit und nimmt teil am öffentlichen Diskurs zum Themenbereich Pfeifentabak.\r\nDas tabak forum e.V. vertritt klare Position für einen steuerlich angemessenen und regulatorisch\r\nausgewogenen Umgang mit klassischen Pfeifentabak.\r\nDas tabak forum e.V. fördert Verantwortungsbewusstsein im Umgang mit den im tabak forum e.V.\r\nvertretenen Produkten, ganz besonders im Hinblick auf den Jugendschutz.",
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4349,
+        "timestamp": 1653388295027,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000031",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000031",
+                "companyName": "Verband Innovativer Fahrschulen Deutschland (VIFD) e. V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Der Verband Innovativer Fahrschulen Deutschland (VIFD) e. V. ist ein Arbeitgeberverband für Fahrschulunternehmen, der seine Aufgabe in der Stärkung und Weiterentwicklung des Fahrschulwesens in der Bundesrepublik sieht. Schwerpunktmäßig arbeitet der Verband an den Themen Modernisierung des Fahrschulwesens durch Digitalisierung, Nachwuchsgewinnung- und Förderung, Beseitigung etwaiger Missstände sowie Gesetzgebung im Fahrschulwesen. Der VIFD entwickelt zu den bestehenden Herausforderungen und Themen Positionen und Lösungsvorschläge, über die er mit der Politik auf Bundes- und Landesebene verhandelt.",
+                "lobbyMoneySpent": {}
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4350,
+        "timestamp": 1653388295043,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000030",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000030",
+                "companyName": "Gesellschaft für Neonatologie und Pädiatrische Intensivmedizin",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die GNPI dient der Förderung der Neonatologie und der pädiatrischen Intensivmedizin in Wissenschaft und Praxis. ",
+                "memberships": [
+                    "Arbeitsgemeinschaft Wissenschaftlich-Medizinischer Fachgesellschaften (AWMF)"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4351,
+        "timestamp": 1653388295060,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000029",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000029",
+                "companyName": "Bundesverband Parkett und Fußbodentechnik",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Primäre Aufgabe ist die Förderung und Beratung der Betiebe des Parkettlegerhandwerks und des Bodenlegergewerbes. Hierzu zählen im wesentlichen:\r\n- technische\r\n- betriebswirtschaftliche\r\n- handwerksrechtliche\r\n- ausbildungspolitische und\r\n- sozialpolitische Belange.\r\nDer Bundesverband fungiert auch als tarifpolitischer Sozialpartner.",
+                "lobbyMoneySpent": {}
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4352,
+        "timestamp": 1653388295076,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000028",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000028",
+                "companyName": "Verband des eZigarettenhandels (VdeH)",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Pohland, Oliver"
+                ],
+                "reasonForLobbying": "Der Verband des eZigarettenhandels e.V. ist ein Zusammenschluss von überwiegend kleinen und mittelständischen Unternehmen, die elektrische Zigaretten und Liquids vertreiben oder herstellen. Mit seiner Gründung am 19.12.2011 ist der VdeH die älteste und bis heute größte Interessenvertretung dieser jungen Branche in Deutschland.\r\nWir sind für ein sinnvolle Regulierung der Branche und des Produktes E-Zigarette mit Augenmaß. Verbraucher und Jugendliche müssen geschützt werden, eine Strangulation der jungen Branche durch sinnlose und wirkungslose Maßnahmen, die zur Einschränkung verantwortungsbewusst handelnder Marktteilnehmer auf Kosten des Verbraucherschutzes führen, muss aber verhindert werden.\r\nDie Politik muss Kompromisse für widerstreitende Positionen und Interessen finden. Die Gegner der E-Zigarette wirken auf die Politik ein, deren Positionen basieren jedoch nicht selten auf einer eigenen Ideologie und singulären Moralvorstellungen. Deutschland kann sich mit einer Raucherquote von 28%, damit auf dem vorletzten EU-Rang bei der Tabakprävention und auf dem 10. Platz von 19 bei der Raucherquote, nicht länger leisten, erwiesenermaßen wirksame Methoden für ihre Senkung zu ignorieren. Ideologie und Bevormundung dürfen nicht länger vor Vernunft und Wissenschaft stehen, dafür setzen wir uns in der Politik mit der Aufklärung über wissenschaftliche Fakten ein. Eine besondere Bedeutung in den Prozessen unserer politischen Arbeit kommt dabei aktuell dem Tabaksteuermodernisierungsgesetz und der damit verbundenen Steuerhöhe als auch der Gleichsetzung der Besteuerung von nikotinhaltigen und nikotinfreien Substituten zu. ",
+                "memberships": [
+                    "Independent European Vaping Alliance (IEVA)"
+                ],
+                "donators": [
+                    "BAT, Hamburg"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 180001,
+                    "to": 190000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4353,
+        "timestamp": 1653388295094,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000027",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000027",
+                "companyName": "World University Service, Deutsches Komitee e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 11,
+                    "to": 20
+                },
+                "reasonForLobbying": "World University Service versteht sich als Interessensvertretung für das Menschenrecht auf Bildung, insbesondere für die Stärkung der entwicklungspolitischen Bildungsarbeit in Deutschland, die verbesserten Studien- und Lebensbedingungen für ausländische Studierende in Deutschland und den Nutzen und Stärkung von Bildungseinrichtungen in Lateinamerika, Afrika und Asien. \r\nW steht für World. Der WUS ist eine internationale, politisch und konfessionell nicht gebundene Organisation, bestehend in über 50 Ländern der Erde. Der WUS versteht sich als eine internationale Gemeinschaft von Studierenden, Lehrenden und Mitarbeitenden im Bildungssektor.\r\nU steht für University. Der WUS wurde 1920 gegründet, um Menschen zu unterstützen, die im Hochschulbereich arbeiten, lehren und lernen. Inzwischen arbeitet der WUS auf allen Bildungsebenen und tritt für das Menschenrecht auf Bildung ein. Ausgehend von einem gesellschaftlichen Auftrag der Hochschulen setzt sich der WUS für die Entwicklung gerechter, sozialer und politischer Strukturen auf nationaler und internationaler Ebene ein.\r\nS steht für Service. In der konkreten Arbeit lädt der WUS zu Seminaren ein, erstellt Publikationen und Informationsmaterialien. Der WUS betreibt Öffentlichkeitsarbeit auf politischer Ebene, der institutionalisierten Ebene in den bildungs- und entwicklungspolitischen Organisationen und gegenüber den Medien. Der WUS nimmt an nationalen und internationalen Kampagnen im Bildungs- und Entwicklungsbereich teil, bietet Beratungen an und führt Stipendienprogramme sowie Projekte durch.\r\n\r\nIn folgenden Projekten setzt WUS diese Ziele um: \r\nInformationsstelle  Bildungsauftrag Nord-Süd\r\nAktuelle Übersichten über Veranstaltungen, Materialien und Publikationen zur entwicklungspolitischen Bildungsarbeit, Vernetzung der Akteure in der Bildungsarbeit, Studien zum Stand der entwicklungspolitischen Bildungsarbeit in der Bundesrepublik Deutschland. \r\n\r\nPortal Globales Lernen  www.globaleslernen.de\r\nDas Portal Globales Lernen der Eine Welt Internet Konferenz (EWIK) ermöglicht einen schnellen und übersichtlichen Zugang zu allen relevanten Informations- und Bildungsangeboten zum Globalen Lernen. \r\n\r\nPortal Entwicklungspolitik der Länder\r\nwww.entwicklungspolitik-deutsche-laender.de bietet einen Überblick zur Entwicklungspolitik der 16 Deutschen Länder und ermöglicht einen direkten Zugang zu den entsprechenden Seiten der Länder-Entwicklungs-politik und ihren Partnerschaften. Die Redaktion des Portals haben die Länder dem WUS übertragen. \r\n\r\nBeteiligung an den Arbeitsschwerpunkten des internationalen WUS\r\n\r\nKooperation mit Bildungsorganisationen weltweit, z.B.: \r\nGhana: Bildungsaustausch, Projekte\r\nVietnam: Sur Place-Stipendienprogramm / Promotionsbetreuung.\r\n\r\nVGU - Vietnamesisch-Deutsche Hochschule:\r\nHessen unterstützt den Aufbau der Vietnamesisch-Deutschen Hochschule  in Vietnam\r\n\r\nStudienbegleitprogramm für Studierende aus Afrika, Asien und Lateinamerika in Hessen (STUBE Hessen) In Trägerschaft des WUS und mit Unterstützung des Hessischen Ministeriums für Wissenschaft und Kunst und den evangelischen Studierendengemeinden in Hessen.\r\n\r\nRückkehr und Berufseinstieg\r\nRückkehrende Fachkräfte, die in Deutschland ihre berufliche Qualifikation erworben haben, spielen für ihre Herkunftsländer eine wichtige Rolle. Dieses Thema verfolgt der WUS bereits seit vielen Jahren. \r\n\r\nGrenzenlos - Globales Lernen in der beruflichen Bildung\r\nStudierende aus Afrika, Asien und Lateinamerika entwickeln gemeinsam mit Lehrkräften von berufsbildenden Schulen Lehrkooperationen zu Themen des Globalen Lernens und Bildung für nachhaltige Entwicklung (BNE).\r\n\r\nPortal Geflüchtete und Hochschulen in Deutschland\r\nWUS pflegt eine Linksammlung mit Angeboten für Geflüchtete und deren Hochschulbildung auf der WUS - Homepage.",
+                "memberships": [
+                    "VENRO - Verband Entwicklungspolitik und humanitäre Hilfe"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1940001,
+                    "to": 1950000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4354,
+        "timestamp": 1653388295106,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000026",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000026",
+                "companyName": "Hochschullehrerbund - Bundesvereinigung e. V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Brunotte, Thomas",
+                    "Neschke, Karla"
+                ],
+                "reasonForLobbying": "§ 2 Zweck und Aufgaben des hlb\r\n(1) Der hlb vertritt die gemeinsamen Interessen der Hochschullehrerinnen und Hochschullehrer auf Bundesebene und koordiniert die Arbeit der Mitgliedsverbände. \r\n(2) Aufgaben des hlb sind insbesondere \r\n1. die Vertretung der gemeinsamen Interessen der Hochschullehrerinnen und Hochschullehrer gegenüber den Gesetzgebungsorganen des Bundes und der Europäischen Union \r\n(EU) sowie gegenüber anderen Institutionen des Bundes und der EU, \r\n2. die Förderung und Weiterentwicklung der anwendungsbezogenen, berufsqualifizierenden, wissenschaftlichen Ausbildung und Forschung sowie der Fortentwicklung von Hochschulen, \r\n3. die Unterstützung der beruflichen Eingliederung der Absolventinnen und Absolventen \r\ndieser Hochschulen, \r\n4. die Zusammenarbeit mit geeigneten Organisationen oder Verbänden im In- und Ausland, \r\n5. die Unterstützung von Mitgliedsverbänden durch Dienstleistungen, \r\n6. Rechtsdienstleistungen durch Beratung, Beistand und Rechtsschutz für die Mitglieder der \r\nMitgliedsverbände auf deren Nachfrage. \r\n(3) Der hlb ist der Wissenschaftsfreiheit verpflichtet, politisch und konfessionell neutral. Er \r\nverfolgt keine auf Gewinn gerichteten Interessen.",
+                "memberships": [
+                    "European University Association (EUA)"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 40001,
+                    "to": 50000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4355,
+        "timestamp": 1653388295119,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000025",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000025",
+                "companyName": "VTH Verband Technischer Handel e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Aufgabe des VTH ist der Schutz, die Wahrnehmung und Förderung aller gemeinsamen fachlichen, wirtschaftlichen und wettbewerbsrechtlichen Interessen der Technischen Händler im In- und Ausland, insbesondere die Wahrnehmung der Interessen der Branche Technischer Handel bei Behörden, Kör-perschaften, Industrie, Handel, Handwerk, Verarbeitern, Verbrauchern sowie bei deren organisatorischen Zusammenschlüssen.\r\n",
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4356,
+        "timestamp": 1653388295136,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000024",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000024",
+                "companyName": "FSI - Forum Soziale Inklusion e. V.",
+                "lobbyEmployeeCount": {
+                    "start": 11,
+                    "to": 20
+                },
+                "reasonForLobbying": "Stärkung ganzheitlicher Ansätze in Familien- und Geschlechterpolitik mit Blick auf die Belange von Frauen und Männern, (getrennt erziehenden) Müttern und Vätern.",
+                "lobbyMoneySpent": {
+                    "start": 10001,
+                    "to": 20000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4357,
+        "timestamp": 1653388295151,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000023",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000023",
+                "companyName": "Deutsche Schienenhilfe",
+                "lobbyEmployeeCount": {},
+                "reasonForLobbying": "Die Deutsche Schienenhilfe kämpft für einen sicheren Güterverkehr in Deutschland und Europa. Ziel ist, dass der Schienengüterverkehr alle rechtlichen Vorgaben, etwa zum Lärmschutz, zur Beladungsmenge, zu Wartungsintervallen, einhält. Damit könnten Unglücke vermieden, Brände verhindert, Menschen gerettet, Tiere geschützt und Häuser sowie Infrastrukturen erhalten werden.\r\n\r\nDie Deutsche Schienenhilfe ist eine Initiative von Menschen, die sich für einen sicheren Schienengüterverkehr einsetzen. ",
+                "memberships": [
+                    "ARBEITSKREIS BAHNLÄRM RHEIN / MOSEL"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4358,
+        "timestamp": 1653388295172,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000021",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000021",
+                "companyName": "AdipositasHilfe Deutschland e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die AdipositasHilfe Deutschland e.V. vertritt als Patienten- und Selbsthilfeorganisation die Interessen der Menschen, die an der Adipositas erkrankt sind bzw. unter dem metabolischen Syndrom leiden. \r\nDazu führt sie Veranstaltungen für die unterschiedlichsten Zielgruppen durch um auf die Versorgungs- und Lebenssituation von Betroffenen aufmerksam zu machen und aufzuklären. \r\nHierzu gehört auch der Austausch mit medizinischen Fachgesellschaften und politischen Parteien sowie deren Angehörigen-",
+                "memberships": [
+                    "DAG SHG e.V.",
+                    "Paritätischer Wohlfahrtsverband"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4359,
+        "timestamp": 1653388295184,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000020",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000020",
+                "companyName": "d&b audiotechnik GmbH&CoKG",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Beratung und Informationen mit dem Schwerpunkten Mittelstand, Media und Entertainment Industrie, Veranstaltungswirtschaft, zu den Themen Innovation, Digitalisierung, Nachhaltigkeit, Kreislaufwirtschaft und Remanufacturing.",
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4360,
+        "timestamp": 1653388295198,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000019",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000019",
+                "companyName": "Vereinigung der Bürger- und Dorfläden in Deutschland e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Interessensvertretung im Bereich der Grund- und Nahversorgung zur Verbesserung der Versorgung von Bürgern in schwach strukturierten Regionen (kleine Stadtteile, kleine Dörfer ab 50 Einwohnern); Stärkung der Interessenslagen von kleinen Direktvermarktern (meist Nebenerwerbsbetriebe); Stärkung der Interessen von Bürgerläden (genossenschaftlich geführte Läden) sowie Dorfläden und Stadtteilläden, die mehrheitlich privat geführt werden.",
+                "memberships": [
+                    "Bundesverband der Regionalbewegung e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4361,
+        "timestamp": 1653388295215,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000018",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000018",
+                "companyName": "BUndesverband Mikrohaus e.V. i. Gr.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "[Auszug aus der Satzung]\r\n§ 4\r\nZweck und Aufgaben des Bundesverbandes\r\n1. Der Bundesverband vertritt alle mit Mikrobauten gewerblich, privat und gesellschaftlich befassten natürlichen und juristischen Personen. Er fördert als Kompetenzzentrum die vielfältigen Beziehungen zwischen den Mitgliedern und nimmt deren Interessen gegenüber der Öffentlichkeit, Politik und Verwaltung wahr.\r\n2. Der Bundesverband ist neutral und objektiv und enthält sich jeder parteipolitischen und weltanschaulichen Tätigkeit.\r\n3. Der Bundesverband erfüllt seinen Zweck insbesondere durch:\r\n(1) die Wahrnehmung der Interessen der Mitglieder bei Regierungsstellen, Gebietskörperschaften, Organisationen, Institutionen und anderen zur staatlichen Verwaltung Zugehörigen;\r\n(2) Beratung von politischen Entscheidungsträgern sowie Beschäftigte in den staatlichen / gesellschaftlichen Verwaltungen und Medien;\r\n(3) Mitwirkung bei der Aufstellung von Gesetzen, Verordnungen und Normen, die die in §2 Abs 2 genannten Objekte betreffen;\r\n(4) [...]\r\n(5) das Zusammentragen und die Weitergabe von Informationen über die Wirtschaftssituation\r\nder in §2 Abs 2 genannten Objekte betreffend, z.B. durch Befragungen oder Veröffentlichungen;\r\n(6) [...];\r\n(7) [...];\r\n(8) die Durchführung von Pressekonferenzen, Informationsseminaren, Symposien, Konferenzen, Diskussionen, Messen / Ausstellungen und anderen Veranstaltungen, sowie die Teilnahme an derartigen Veranstaltungen;\r\n(9) die Organisation, Förderung und Teilnahme an Ausbildungsmaßnahmen, darunter Fortbildung und Berufsausbildung;\r\n(10) [...];\r\n(11) [...];\r\n(12) die Ausstellung von Zeugnissen, Zertifikaten und Bescheinigungen, die im Zusammenhang mit der Erfüllung der Aufgaben des Bundesverbandes stehen;\r\n(13) die Unterstützung und Beratung ihrer Mitglieder in allen im Rahmen ihres Tätigkeitsbereichs liegenden Angelegenheiten;\r\n(14) [...].\r\n\r\n4. [...].\r\n",
+                "lobbyMoneySpent": {}
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4362,
+        "timestamp": 1653388295237,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000015",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000015",
+                "companyName": "Coalition Consulting GmbH",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Beratung, insbesondere im Hinblick auf technologische Möglichkeiten bei der Digitalisierung der Gesundheitsversorgung",
+                "lobbyMoneySpent": {}
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4363,
+        "timestamp": 1653388295264,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000013",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000013",
+                "companyName": "Deutsche Gesellschaft für Sterilgutversorgung DGSV e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 21,
+                    "to": 30
+                },
+                "reasonForLobbying": "Zweck des Vereins ist die Förderung von Wissenschaft und Forschung und die Förderung des öffentlichen Gesundheitswesens und der öffentlichen Gesundheitspflege, insbesondere die Verhütung und Bekämpfung von übertragbaren Krankheiten, durch die Unterstützung von Forschung, Wissenschaft, Aus-, Fort- und Weiterbildung sowie des Erfahrungsaustausches auf dem Gebiet der Sterilgutversorgung.\r\nDer Verein hat als Ziel die Entwicklung eines Berufsbildes  Fachkraft für Medizinprodukte Aufbereitung FMA-DGSV\r\nDer Verein hat sich zur Aufgabe gestellt, ein Forum für Forschung, Wissenschaft und Praxis zu schaffen, von dem aus\r\n- anstehende Fragen und Probleme in der Sterilgutversorgung und deren Umfeld beantwortet und gelöst werden, mit dem Ziel einer Verbesserung der Qualität der Gesundheitsversorgung der Bevölkerung auf dem Gebiet der Sterilgutversorgung,\r\n- der Erfahrungsaustausch und die fachübergreifende Kooperation mit den für die Sterilgutversorgung relevanten medizinischen sowie nicht-medizinischen Disziplinen aufgebaut, aufrechterhalten und verbessert wird,\r\n- nationale und internationale Fachgespräche geführt werden,\r\n- weltweit Aus-, Fort- und Weiterbildungsprogramme sowie Forschungsvorhaben auf dem Gebiet der Sterilgutversorgung initiiert, entwickelt und unterstützt werden.",
+                "memberships": [
+                    "World Federation for Hospital Sterilization Sciences"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 10001,
+                    "to": 20000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4364,
+        "timestamp": 1653388295277,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000012",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000012",
+                "companyName": "Deutsche Umweltstiftung",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Kontakt zu Abgeordneten, Zurverfügungstellung von Fachinformationen",
+                "memberships": [
+                    "Deutscher Naturschutzring",
+                    "Bundesverband Deutscher Stiftungen"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4365,
+        "timestamp": 1653388295302,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000011",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000011",
+                "companyName": "Fahle Film",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Bewegtbildaufträge aus diversen Bereichen. teilweise öffentliche Auftraggeber wie z.B. Ministerien.",
+                "lobbyMoneySpent": {}
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4366,
+        "timestamp": 1653388295339,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000010",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000010",
+                "companyName": "Verband Deutscher Lehrer im Ausland",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Der Verband Deutscher Lehrer im Ausland (VDLiA)  setzt sich als  Interessensvertretung aller deutschen Auslandslehrkräfte für die Förderung des Auslandsschulwesens ein. Dazu betreiben wir unabhängig von Partei-, Behörden- und Institutionsgrenzen Lobbyarbeit bei den Entscheidungsträgern und fördern damit auch die Rahmenbedingungen der Arbeit an den Auslandsschulen. Im Einzelnen vertritt der gewählte Vorstand die Interessen  von Auslandslehrkräften beim Unterausschuss Auswärtige Kultur- und Bildungspolitik, dem Auswärtigen Ausschuss, dem Haushaltsausschuss, den Bundestagsparteien, sowie bei der Kultusministerkonferenz und den Landeskultusministerien. ",
+                "lobbyMoneySpent": {
+                    "reason": "Die Aufwendungen für die Interessensvertretung beschränken sich einzig und allein auf die Fahrtkosten und Unterbringung der Interessensvertreter (innerer Vorstand des Verbandes) bei Fahrten nach Berlin."
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4367,
+        "timestamp": 1653388295359,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000008",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000008",
+                "companyName": "TÜV-Verband e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 21,
+                    "to": 30
+                },
+                "lobbyEmployyeNames": [
+                    "Küller, Mark",
+                    "Göbelt, Richard",
+                    "Roy, Linda",
+                    "Gronau, Rainer",
+                    "Hovehne, Fee",
+                    "Dinkler, Hermann",
+                    "Schneider, Frank",
+                    "Schröer, Alexander",
+                    "Blohm, Ingo",
+                    "Dörhöfer, Jannis",
+                    "Siegl, André",
+                    "Petrich, Juliane",
+                    "Fliehe, Marc",
+                    "Steinke, Ingo",
+                    "Tautorus, Claudia",
+                    "Pflumm, Daniel",
+                    "Sürig, Maria",
+                    "Kröhnert, Johannes",
+                    "Waschke, Marc-Philipp",
+                    "Gilroy, Patrick"
+                ],
+                "reasonForLobbying": "Der TÜV-Verband e.V. unterstützt seine Mitglieder bei der Erbringung ihrer unabhängigen und neutralen Dienstleistungen wie Beratung, Testen, Prüfung, Zertifizierung und Ausbildung auf den Gebieten technische Sicherheit, Qualität, Umweltschutz und Wirtschaftlichkeit. Der Verband vertritt die Mitgliederinteressen in den gemeinsamen Angelegenheiten auf vorgenannten Gebieten gegenüber Politik, Regierungen, Gesetzgebung, Ministerien, Wirtschaftskreisen, Verbänden und der Öffentlichkeit.\r\n\r\nZur Erfüllung dieses Satzungsauftrages übernimmt der Verband insbesondere folgende Aufgaben:\r\na) auf die Einheitlichkeit in der Handhabung der technischen Dienstleistungen auf allen relevanten Gebieten hinzuwirken, die dabei gewonnenen Erfahrungen zu sammeln und den beteiligten Stellen zugänglich zu machen (Technischer Erfahrungsaustausch),\r\nb) bei der Gestaltung von Gesetzen und Normen aktiv mitzuwirken,\r\nc) Regeln, Richtlinien und Empfehlungen zu erarbeiten,\r\nd) die zuständigen Parlamente, Ministerien, Gremien und andere in Frage kommende Stellen in Deutschland und in der Europäischen Union bei der einschlägigen Gesetz- und Vorschriftengebung mit dem Ziel der Wahrung eines hohen technischen Sicherheits- und Qualitätsniveaus zu beraten,\r\ne) am Aufbau und Betrieb nationaler und internationaler Prüf-, Zertifizierungs- und Akkreditierungssysteme, auch durch Übernahme von Aufgaben, aktiv mitzuwirken,\r\nf) die die Gemeinschaft der Mitglieder oder einzelne Mitgliedergruppen interessierenden und/oder berührenden Angelegenheiten im gesellschaftlichen, medialen und wirtschaftlichen Umfeld durch die Vertretung gemeinsamer Positionen der Mitglieder wahrzunehmen,\r\ng) uneigennützig dem Gesamtwohl im Bereich der Technik zu dienen.\r\n\r\nZur Erfüllung vorgenannter Aufgabe erbringt der Verband u. a. folgende Leistungen für seine Mitglieder:\r\na) Informationen und Berichte über mitgliederrelevante Gesetzes-, Verordnungs- und Richtlinienvorhaben,\r\nb) Informationen und Berichte über Aktivitäten im Rahmen der Wahrnehmung politischer Interessenvertretung,\r\nc) Informationen und Berichte über aktuelle Ereignisse und wesentliche Entwicklungen in Verbandsangelegenheiten,\r\nd) Erarbeitung von Stellungnahmen und Positionspapieren zu mitgliederrelevanten Themen und Legislativvorhaben,\r\ne) Informations- und Schulungsveranstaltungen,\r\nf) Beratung der Mitglieder im Zusammenhang mit den seitens des Verbandes angebotenen Leistungen,\r\ng) Aufgreifen von mitgliederrelevanten Themen und Einrichtung entsprechender Diskussionsplattformen sowie Bündelung gemeinsamer Interessen,\r\nh) Bereitstellung und Einrichtung von Gremien zu mitgliederrelevanten Sachgebieten,\r\ni) Unterstützung der Mitglieder bei der gemeinsamen Entwicklung von technischen Standards, Produkten und Dienstleistungen.\r\n\r\n",
+                "memberships": [
+                    "TIC Council, www.tic-council.org",
+                    "European Transport Safety Council (ETSC), www.etsc.eu",
+                    "International Motor Vehicle Inspection Committee (CITA), www.citainsp.org",
+                    "International Commission of Driver Testing (CIECA), www.cieca.eu",
+                    "Bundesverband der Deutschen Industrie (BDI), www.bdi.eu",
+                    "Deutsches Institut für Normung (DIN), www.din.de",
+                    "Deutsche Verkehrswacht e.V., www.deutsche-verkehrswacht.de",
+                    "Deutsches Verkehrsforum e.V., www.verkehrsforum.de",
+                    "Deutscher Verkehrssicherheitsrat e.V. (DVR), www.dvr.de",
+                    "EUROLAB Deutschland, www.eurolab-d.de",
+                    "Verband für Anlagentechnik und IndustrieService e.V., www.vais.deVAIS",
+                    "Institut für Sachverständigenwesen (IfS), www.ifsforum.de",
+                    "VGB PowerTech, www.vbg.org",
+                    "Zentralverband Deutsches Kraftfahrzeuggewerbe (ZDK), www.kfzgewerbe.de"
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1410001,
+                    "to": 1420000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4368,
+        "timestamp": 1653388295372,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000006",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000006",
+                "companyName": "IfKom - Ingenieure für Kommunikation e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die Ingenieure für Kommunikation e. V. (IfKom) sind der Berufsverband von technischen Fach- und Führungskräften in der Kommunikationswirtschaft. Der Verband vertritt die Interessen seiner Mitglieder - Ingenieure und Ingenieurstudenten sowie fördernde Mitglieder - gegenüber Wirtschaft, Politik und Öffentlichkeit. \r\n\r\nDer Verband ist offen für Studenten und Absolventen von Studiengängen an Hochschulen aus den Bereichen Telekommunikation und Informationstechnik sowie für fördernde Mitglieder. Der Netzwerkgedanke ist ein tragendes Element der Verbandsarbeit. Gerade ITK-Ingenieure tragen eine hohe Verantwortung für die Gesellschaft, denn sie bestimmen die Branche, die die größten Veränderungsprozesse nach sich zieht. Die IfKom sind Mitglied im Dachverband ZBI - Zentralverband der Ingenieurvereine e. V. Mit über 50.000 Mitgliedern zählt der ZBI zu den größten Ingenieurverbänden in Deutschland.\r\n\r\nAls Berufsverband arbeiten wir an einem zeitgemäßen Berufsbild des Ingenieurs, das ebenso wie die Entwicklung der Technik einem Fortschritt und Wandel unterworfen ist. Um diesem Berufsbild zu entsprechen, setzen sich die IfKom für ein anforderungsgerechtes Studium ein, das Vertriebs- und Marketingkenntnisse ebenso umfasst wie betriebs- und volkswirtschaftliche Zusammenhänge sowie Führungswissen. Zudem muss eine Ingenieurausbildung so weiterentwickelt werden, dass die Frage nach Nachhaltigkeit und Ressourcenschonung zu einem wesentlichen Moment im Handeln von Ingenieurinnen und Ingenieuren wird, vor allem, wenn sie als Führungspersönlichkeiten strategische Entscheidungen treffen müssen.\r\n\r\nAls Interessenvertretung setzen wir uns für den flächendeckenden Breitbandausbau und die digitale Teilhabe ein. Wir suchen den Kontakt mit Entscheidungsträgern aus Politik, Wirtschaft und Wissenschaft und vertreten in der Öffentlichkeit unsere Positionen. Wir fördern den technischen Fortschritt, bewerten mit unserer Sachkompetenz Technikchancen und Technikfolgen und informieren die Öffentlichkeit. Wir nehmen Stellung zu Gesetzen, Verordnungen und sonstigen Regelungen, die Aspekte der Informations- und Kommunikationstechnik, der Digitalisierung sowie deren Einflüsse auf Leben, Bildung und Arbeit betreffen.",
+                "memberships": [
+                    "ZBI - Zentralverband der Ingenieurvereine e.V.",
+                    "eco - Verband der Internetwirtschaft e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4369,
+        "timestamp": 1653388295386,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000005",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000005",
+                "companyName": "ITS Germany e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "reasonForLobbying": "Die Mobilität ist im disruptiven Wandel, für den die ITS Industrie die wichtigste Schlüsselbranche darstellt. Die aktive Gestaltung des Mobilitätswandels ist die gemeinsame Aufgabe aller Beteiligter aus Industrie, Politik, Verwaltung, Verbänden und Zivilgesellschaft. Die Mitglieder von ITS Germany sind Mitgestalter der zukünftigen Mobilität. Die Tätigkeitsschwerpunkte von ITS Germany liegen in der urbanen und ruralen Mobilität und umfassen alle Mobilitäts- und Logistikmodi zu Lande (Stra-ße und Schiene), zu Wasser und zur Luft.",
+                "memberships": [
+                    "Bundesverband Smart City e.V.",
+                    "Bundesverband Verkehrssicherheitstechnik e.V.",
+                    "automotive BerlinBrandenburg e.V.",
+                    "Berlin Brandenburg Aerospace",
+                    "Bund der Selbstständigen e.V.",
+                    "Bundesverband Fuhrparkmanagement e.V.",
+                    "Bundesvereinigung Logistik (BVL) e.V.",
+                    "Charta digitale Vernetzung e.V.",
+                    "CNA e.V.",
+                    "Münchner Kreis e.V.",
+                    "SIBB e.V.",
+                    "Smart Parking e.V."
+                ],
+                "lobbyMoneySpent": {
+                    "start": 10001,
+                    "to": 20000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4370,
+        "timestamp": 1653388295401,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000003",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000003",
+                "companyName": "Partner für Wasser e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Sonnenberg, Udo"
+                ],
+                "reasonForLobbying": "Die Partner für Wasser (PfW) setzen sich für mehr Hygiene und Sicherheit im Umgang mit Trinkwasser in den sensiblen Einrichtungen der Daseinsvorsorge ein und engagieren sich primär im Healthcare-Bereich.\r\n\r\nGerade in Krankenhäusern, Pflegeheimen, Kindergärten und andere Fürsorgeeinrichtungen, wo ein hohes Maß an Hygiene und Sicherheit gewährleistet sein muss, kommt es auf beste Produkte und Werkstoffe an. Besonders im Umgang mit kranken oder alten Menschen, deren Immunsysteme geschwächt sind, müssen bestehende Normen eingehalten sowie höchste Qualitäts- und Sicherheitsansprüche erfüllt werden.\r\n\r\nDarum ist die primäre Zielsetzung der Partner für Wasser e.V., die Anwender in Healthcare-Einrichtungen dafür zu sensibilisieren, was notwendig ist, um eine optimale Trinkwasserqualität zu gewährleisten und gegebenenfalls nachhaltig zu verbessern. Das steht in enger Verbindung mit einer fachgerechten Verarbeitung, die eine einwandfreie Funktion und die Sicherheit der Anlagen gewährleistet. In Krankenhäusern und Pflegeeinrichtungen herrscht oberstes Reinheitsgebot. Das gilt vor allem für das Wasser, das täglich durch die Leitungen und aus den Armaturen fließt.\r\n\r\nBesonders gefährdet sind alte Menschen oder Menschen mit schweren Grunderkrankungen, mit Malignomen, Patienten mit Immundefekt oder unter Immunsuppression, Personen mit offenen Wunden, mit Stoffwechsel- oder Herz-Kreislauf-Erkrankungen, chronisch Lungenkranke sowie Patienten unter einer Kortikosteroidtherapie.\r\n\r\nWasser wird beispielsweise im Krankenhaus zu vielen verschiedenen Zwecken und in ganz unterschiedlichen Zubereitungen verwendet: Leitungswasser dient zum Trinken und in der Pflege, es gibt Hämodialysewasser und Hämodialysierflüssigkeit, Wasser für pharmazeutische Zwecke, Lösungen zur Reinigung und Desinfektion, zur Aufbereitung medizinischer Geräte, Wasser in Therapie- und Gebärbädern sowie Eis. Und Wasser gilt als die am meisten übersehene wichtige, allerdings auch kontrollierbare Quelle nosokomialer Erkrankungen.\r\n\r\nWir wollen die Daseinsvorsorgeeinrichtungen mit Blick auf die erforderlichen Maßnahmen für die dauerhafte Sicherung einer möglichst optimalen Trinkwasserqualität beraten und gemeinsam Lösungsvorschläge erarbeiten, wie Gefährdungspotenziale z.B. durch Verunreinigungen oder einer nicht optimalen Wasserzirkulation minimiert werden können.",
+                "lobbyMoneySpent": {
+                    "start": 20001,
+                    "to": 30000,
+                    "year": "2020"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4371,
+        "timestamp": 1653388295418,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000002",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000002",
+                "companyName": "Bundesvereinigung Nachhaltigkeit e.V.",
+                "lobbyEmployeeCount": {
+                    "start": 1,
+                    "to": 10
+                },
+                "lobbyEmployyeNames": [
+                    "Köster, Stephan"
+                ],
+                "reasonForLobbying": "Der Bundesvereinigung Nachhaltigkeit e.V. (BVNG) vertritt als Fachverband für Nachhaltigkeit die gemeinsamen ideellen Interessen seiner Mitglieder in allen nachhaltigkeitsrelevanten Fragen, fördert die Zusammenarbeit zwischen den Mitgliedern und unterstützt sie bei der Erfüllung ihrer Aufgaben. \r\n\r\nSatzungsmäßige Aufgaben sind die allgemeine Förderung des demokratischen Staatswesens, der Entwicklungszusammenarbeit, von Wissenschaft und Forschung, Kunst und Kultur sowie der Bildung für Nachhaltige Entwicklung in allen Sektoren.\r\n\r\nDie Vision der Bundesvereinigung Nachhaltigkeit ist die Entwicklung einer Welt, in der ein globales Gemeinschaftsbewusstsein gelebt wird. Unser Fokus liegt auf dem Abbau von Ungleichheiten für Mensch und Natur. Die BVNG und ihre Mitglieder streben nach internationaler Zusammenarbeit für den Erhalt einer lebensfähigen Natur und ihrer Biodiversität unter Einbeziehung der Vielfalt und der Potenziale aller Kulturen. Natur hat im Laufe von Milliarden Jahren Gleichgewichtsmechanismen entwickelt, die ihr das Überleben sichern. Dieses Vorbild wird aufgegriffen, um den nächsten Generationen mehr Chancen auf eine lebenswerte Welt zu ermöglichen. Um dies zu erreichen, will die Vereinigung Nachhaltigkeit als Staatsziel etablieren.\r\n\r\nDie Mission der Bundesvereinigung Nachhaltigkeit ist, eine Lobby für Nachhaltigkeit und eine gemeinsame Kommunikationsplattform hierfür zu schaffen. Die Organisation arbeitet und wirkt im Kontext der 17 UN-Nachhaltigkeitsziele, die Anhaltspunkte dafür bieten, auf welchen Feldern Nachhaltige Entwicklung notwendig ist. Für die konkrete Umsetzung sinnstiftender Prozesse zeigt die Organisation Vorbilder und Beispiele auf, entwickelt Konzepte und begleitet andere Organisationen, Unternehmen oder Einzelne dabei. Die Bundesvereinigung Nachhaltigkeit begreift sich als Sprachrohr und Impulsgeberin, die zivilgesellschaftliche Interessen bündelt, um staatliche und private Organisationen in Transformationsprozessen zu begleiten.\r\n\r\nDie Werte der Bundesvereinigung Nachhaltigkeit basieren darauf, die Verantwortung für uns und den Planeten zu übernehmen. Als Menschen sind wir alle sowohl Teil eines natürlichen Systems, als auch Teil einer weltweiten kulturellen Gemeinschaft, die auf Wissen basiert. Wissen ist für die Mitglieder der Organisation die Kombination aus Information, Erfahrung und der sog. Weisheit des Herzens. Die BVNG ist von einer globalen Gemeinschaft der Kulturen überzeugt und davon, dass sich dies in gemeinsamen Kernwerten widerspiegeln muss. Gegenseitige Achtung, Gerechtigkeit und Wahrhaftigkeit liegen ihrer Haltung zugrunde. Die Förderung von Kreativität betrachtet die BVNG als Voraussetzung für Innovation und die Entfaltung von Potenzial, die in kooperative Handlungsmuster mündet, die für die Transformation der Welt erforderlich ist.\r\n\r\nDie Bundesvereinigung Nachhaltigkeit setzt sich im Sinne der Nationalen Nachhaltigkeitsstrategie der Bundesregierung langfristig dafür ein,\r\n\r\na) nachhaltiges Handeln in sozialer, ökologischer und ökonomischer Hinsicht in allen Bereichen der Gesellschaft zu verankern;\r\nb) die Zusammenhänge zwischen menschlichem Handeln und dessen Auswirkungen auf natürliche Prozesse im Sinne einer gleichgewichtsorientierten Mensch-Natur-Interaktion bewusst zu machen;\r\nc) Ganzheitlichkeit als Schlüssel für Nachhaltigkeit als maßgebende Betrachtungsweise in gesetzgeberische und Planungsprozesse einzuführen und\r\nd) dass Öffentlichkeit, Politik, Wirtschaft und Verwaltung in dieser Hinsicht beraten und unterstützt werden.",
+                "memberships": [
+                    "International Association for Sustainable Aviation e.V. (IASA)",
+                    "Deutscher Fachverband für Agroforstwirtschaft (DeFAF) e.V.",
+                    "Stiftung Mittelstand Gesellschaft Verantwortung",
+                    "Strategiekreis der Offensive Mittelstand "
+                ],
+                "lobbyMoneySpent": {
+                    "start": 1,
+                    "to": 10000,
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4372,
+        "timestamp": 1653388295431,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "R000001",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "R000001",
+                "companyName": "House of Queer Sisters e.V. Erzabtei Bundesverband",
+                "lobbyEmployeeCount": {},
+                "reasonForLobbying": "\r\n\r\nDas House of Queer Sisters e.V. Erzabtei Bundesverband wurde 2013 als gemeinnütziger Verein gegründet. Wir informieren zu Übertragungswegen von HIV/AIDS, STI und Hepatitiden. Wir sind in der Behindertenhilfe, der Flüchtlingshilfe, Menschenrechte, der Beratung, der Bildung und des Völkerverständigungsgedankens tätig.  Als Selbsthilfeorganisation unterstützen wir Menschen mit HIV/Aids, ihre An- und Zugehörigen in allen Lebensfragen, die sich im Rahmen der HIV-Erkrankung ergeben. Wir beraten und informieren zu sozial- und arbeitsrechtlichen, wie auch zu medizinischen Fragen.  Wir geben Hilfe zur Selbsthilfe und unterstützen die Selbstvertretung von Menschen mit HIV/Aids.Vor dem Hintergrund der veränderten Lebenserwartung ermutigen wir Menschen mit HIV/AIDS, sich mit den Aspekten des langfristigen Erhalts ihrer Gesundheit zu beschäftigen. Unser Ziel ist es, eine informierte Haltung im Umgang mit HIV/AIDS und STI Erkrankungen und dem Leben mit HIV zu ermöglichen. Der Stigmatisierung und Diskriminierung HIV/AIDS positiver Menschen tritt das House of Queer Sisters e.V. Erzabtei Bundesverband parteiisch und solidarisch entgegen. Im House of Queer Sisters e.V. Erzabtei Bundesverband sind alle Mitglieder ehrenamtlich tätig.\r\n",
+                "memberships": [
+                    "Paritätischer Wohlfahrtsverband LV Berlin",
+                    "Aidshilfe Köln",
+                    "Colognepride",
+                    "Hamburgpride",
+                    "Homosexuelle Selbsthilfe e.V.",
+                    "Charta der Vielfalt",
+                    "rubicon Köln"
+                ],
+                "lobbyMoneySpent": {
+                    "year": "2021"
+                }
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    }
+]
