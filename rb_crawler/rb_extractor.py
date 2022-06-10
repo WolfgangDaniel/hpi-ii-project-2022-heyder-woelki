@@ -7,6 +7,8 @@ from parsel import Selector
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate, Status
 from rb_producer import RbProducer
 
+from rb_parser import parse
+
 log = logging.getLogger(__name__)
 
 
@@ -66,6 +68,15 @@ class RbExtractor:
         corporate.event_type = "create"
         corporate.information = raw_text
         corporate.status = Status.STATUS_ACTIVE
+        info = parse(raw_text,self.state)
+        corporate.company_name = info['company_name']
+        corporate.adress.city = info['city']
+        corporate.adress.street = info['street']
+        corporate.adress.plz = info['plz']
+        corporate.person.first_name = info['person_first_name']
+        corporate.person.last_name = info['person_last_name']
+        corporate.person.birthday = info['person_birthdate']
+        corporate.person.city = info['person_place_of_birth']
         self.producer.produce_to_topic(corporate=corporate)
 
     def handle_changes(self, corporate: Corporate, raw_text: str):
@@ -73,6 +84,15 @@ class RbExtractor:
         corporate.event_type = "update"
         corporate.status = Status.STATUS_ACTIVE
         corporate.information = raw_text
+        info = parse(raw_text,self.state)
+        corporate.company_name = info['company_name']
+        corporate.adress.city = info['city']
+        corporate.adress.street = info['street']
+        corporate.adress.plz = info['plz']
+        corporate.person.first_name = info['person_first_name']
+        corporate.person.last_name = info['person_last_name']
+        corporate.person.birthday = info['person_birthdate']
+        corporate.person.city = info['person_place_of_birth']
         self.producer.produce_to_topic(corporate=corporate)
 
     def handle_deletes(self, corporate: Corporate):
