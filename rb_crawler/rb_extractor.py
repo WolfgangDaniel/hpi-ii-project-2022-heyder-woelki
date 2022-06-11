@@ -70,9 +70,9 @@ class RbExtractor:
         corporate.status = Status.STATUS_ACTIVE
         info = parse(raw_text,self.state)
         corporate.company_name = info['company_name']
-        corporate.adress.city = info['city']
-        corporate.adress.street = info['street']
-        corporate.adress.plz = info['plz']
+        corporate.address.street = info['street']
+        corporate.address.plz = info['plz']
+        corporate.address.city = info['city']
         corporate.person.first_name = info['person_first_name']
         corporate.person.last_name = info['person_last_name']
         corporate.person.birthday = info['person_birthdate']
@@ -86,9 +86,9 @@ class RbExtractor:
         corporate.information = raw_text
         info = parse(raw_text,self.state)
         corporate.company_name = info['company_name']
-        corporate.adress.city = info['city']
         corporate.adress.street = info['street']
         corporate.adress.plz = info['plz']
+        corporate.adress.city = info['city']
         corporate.person.first_name = info['person_first_name']
         corporate.person.last_name = info['person_last_name']
         corporate.person.birthday = info['person_birthdate']

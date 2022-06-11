@@ -1,19 +1,19 @@
 import re 
 
 def parse(info,state):
-    company_name_start = info.find(":")+2
+    company_name_start = 0
     company_name_end = info.find(",",company_name_start)
     company_name = info[company_name_start:company_name_end]
     company_address_city_start = company_name_end +2
-    company_address_city_end = info.find(",",company_address_city_start)
+    company_address_city_end = info.find(" ",company_address_city_start)
     company_address_city = info[company_address_city_start:company_address_city_end]
-    company_address_street_start = company_address_city_end +2
+    company_address_street_start = info.find("(", company_address_city_end) +1
     company_address_street_end =company_address_city_end = info.find(",",company_address_street_start)
     company_address_street = info[company_address_street_start:company_address_street_end]
-    company_address_plz_start = company_address_street_end +2
-    company_address_plz_end = info.find(".",company_address_plz_start)
+    company_address_plz_start = info.find(",", company_address_street_end) +2
+    company_address_plz_end = info.find(" ",company_address_plz_start)
     company_address_plz = info[company_address_plz_start:company_address_plz_end]
-    #person = re.findall("(([\w -]+, )([\w -]+, )?([\w./ -]+), \*\d{2}.\d{2}.\d{4})(, )?([\w.\/ -]+)?",info)[0]
+    # person = re.findall("(([\w -]+, )([\w -]+, )?([\w./ -]+), \*\d{2}.\d{2}.\d{4})(, )?([\w.\/ -]+)?",info)[0]
     birthday_string = re.findall("\*\d{2}.\d{2}.\d{4}",info)[0]
     person_birthdate = birthday_string[1:]
     birthday_start = info.find(birthday_string)
