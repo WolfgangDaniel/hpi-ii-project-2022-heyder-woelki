@@ -48,13 +48,27 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_SCHEMA_REGISTRY_URL: "schema-registry:8081"
 
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 9000:8080
+
   schema-registry:
     image: confluentinc/cp-schema-registry:7.0.1
     container_name: schema-registry
     restart: always
     depends_on:
       - zookeeper
+      - kafka
     environment:
+      SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: "zookeeper:2181"
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: "kafka:9092"
       SCHEMA_REGISTRY_LISTENERS: "http://0.0.0.0:8081"
@@ -114,7 +128,10 @@ services:
       CONNECT_KEY_CONVERTER: org.apache.kafka.connect.storage.StringConverter
       CONNECT_KEY_CONVERTER_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
       CONNECT_VALUE_CONVERTER: io.confluent.connect.protobuf.ProtobufConverter
+      CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE: "true"
       CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
+      CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect"
+      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
       CONNECT_INTERNAL_KEY_CONVERTER: "org.apache.kafka.connect.storage.StringConverter"
       CONNECT_INTERNAL_VALUE_CONVERTER: "io.confluent.connect.protobuf.ProtobufConverter"
       CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect"
@@ -133,9 +150,13 @@ services:
         echo "Installing Connector"
         confluent-hub install confluentinc/kafka-connect-elasticsearch:11.1.10 --no-prompt
         confluent-hub install confluentinc/kafka-connect-protobuf-converter:7.1.0 --no-prompt
+        confluent-hub install --no-prompt neo4j/kafka-connect-neo4j:latest
         #
         echo "Launching Kafka Connect worker"
         /etc/confluent/docker/run &
+        # create neo4j sink connector 
+        cd /connect
+        curl -i -X PUT -H Content-Type:application/json http://localhost:8083/connectors/sink-neo4j-orders-00/config -d@contrib.sink.string-json.neo4j.json
         #
         sleep infinity
 
