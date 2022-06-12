@@ -48,27 +48,13 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_SCHEMA_REGISTRY_URL: "schema-registry:8081"
 
-  db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: example
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 9000:8080
-
   schema-registry:
     image: confluentinc/cp-schema-registry:7.0.1
     container_name: schema-registry
     restart: always
     depends_on:
       - zookeeper
-      - kafka
     environment:
-      SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: "zookeeper:2181"
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: "kafka:9092"
       SCHEMA_REGISTRY_LISTENERS: "http://0.0.0.0:8081"
@@ -128,10 +114,7 @@ services:
       CONNECT_KEY_CONVERTER: org.apache.kafka.connect.storage.StringConverter
       CONNECT_KEY_CONVERTER_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
       CONNECT_VALUE_CONVERTER: io.confluent.connect.protobuf.ProtobufConverter
-      CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE: "true"
       CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
-      CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect"
-      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
       CONNECT_INTERNAL_KEY_CONVERTER: "org.apache.kafka.connect.storage.StringConverter"
       CONNECT_INTERNAL_VALUE_CONVERTER: "io.confluent.connect.protobuf.ProtobufConverter"
       CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect"
@@ -143,6 +126,8 @@ services:
       CONNECT_PLUGIN_PATH: /usr/share/java,/usr/share/confluent-hub-components,/data/connect-jars
     volumes:
       - ./connect/elastic-sink.json:/connect/elastic-sink.json
+      - ./connect/elastic-sink.json:/connect/postgres-sink.json
+      - ./data:/data
     command:
       - bash
       - -c
@@ -150,16 +135,12 @@ services:
         echo "Installing Connector"
         confluent-hub install confluentinc/kafka-connect-elasticsearch:11.1.10 --no-prompt
         confluent-hub install confluentinc/kafka-connect-protobuf-converter:7.1.0 --no-prompt
-        confluent-hub install --no-prompt neo4j/kafka-connect-neo4j:latest
+        confluent-hub install confluentinc/kafka-connect-jdbc:latest --no-prompt
         #
         echo "Launching Kafka Connect worker"
         /etc/confluent/docker/run &
-        # create neo4j sink connector 
-        cd /connect
-        curl -i -X PUT -H Content-Type:application/json http://localhost:8083/connectors/sink-neo4j-orders-00/config -d@contrib.sink.string-json.neo4j.json
         #
         sleep infinity
-
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch-oss:7.10.2
     container_name: elasticsearch
@@ -170,13 +151,36 @@ services:
     ports:
       - "9200:9200"
       - "9300:9300"
-  kibana:
-    image: docker.elastic.co/kibana/kibana-oss:7.10.2
-    container_name: kibana
-    hostname: kibana
+  db:
+    image: postgres
+    restart: always
+    ports: 
+      - "5432:5432"
     environment:
-      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      POSTGRES_PASSWORD: example
+  db2:
+    image: mysql
+    # NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
+    # (this is just an example, not intended to be a production configuration)
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports: 
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+  adminer:
+    image: adminer
+    restart: always
     ports:
-      - 5601:5601
-    depends_on:
-      - elasticsearch
+      - 9000:8080
+#  kibana:
+#    image: docker.elastic.co/kibana/kibana-oss:7.10.2
+#    container_name: kibana
+#    hostname: kibana
+#    depends_on:
+#      - elasticsearch
+#    ports:
+#      - "5601:5601"
+#    volumes:
+#      - ./kibana.yml:/usr/share/kibana/config/kibana.yml

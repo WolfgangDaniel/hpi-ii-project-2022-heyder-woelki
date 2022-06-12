@@ -5,20 +5,14 @@ package bakdata.lobby.v1;
 message Lobby {
   string id = 1;
   string companyName = 2;
-  message LobbyEmployeeCount {
-    int32 start = 1;
-    int32 to = 2;
-  }
-  LobbyEmployeeCount lobbyEmployeeCount = 3;
-  repeated string lobbyEmployyeNames = 4;
-  string reasonForLobbying = 5;
-  repeated string memberships = 6;
-  repeated string donators = 7;
-  message LobbyMoneySpent {
-    int32 start = 1;
-    int32 to = 2;
-    string year = 3;
-    string reason = 4;
-  }
-  LobbyMoneySpent lobbyMoneySpent = 8;
+  int32 lobbyEmployeeCountFrom = 3;
+  int32 lobbyEmployeeCountTo = 4;
+  repeated string lobbyEmployyeNames = 5;
+  string reasonForLobbying = 6;
+  repeated string memberships = 7;
+  repeated string donators = 8;
+  int32 lobbyMoneySpentFrom = 9;
+  int32 lobbyMoneySpentTo = 10;
+  string lobbyMoneySpentYear = 11;
+  string lobbyMoneySpentReason = 12;
 }
