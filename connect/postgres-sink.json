@@ -11,6 +11,6 @@
         "pk.fields": "id",
         "pk.mode": "record_key",
         "tasks.max": "1",
-        "topics": "lobby-events"
+        "topics": "lobby-events, corporate-events"
     }
 }

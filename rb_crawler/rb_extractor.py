@@ -70,13 +70,13 @@ class RbExtractor:
         corporate.status = Status.STATUS_ACTIVE
         info = parse(raw_text,self.state)
         corporate.company_name = info['company_name']
-        corporate.address.street = info['street']
-        corporate.address.plz = info['plz']
-        corporate.address.city = info['city']
-        corporate.person.first_name = info['person_first_name']
-        corporate.person.last_name = info['person_last_name']
-        corporate.person.birthday = info['person_birthdate']
-        corporate.person.city = info['person_place_of_birth']
+        corporate.address_street = info['street']
+        corporate.address_plz = info['plz']
+        corporate.address_city = info['city']
+        corporate.person_first_name = info['person_first_name']
+        corporate.person_last_name = info['person_last_name']
+        corporate.person_birthday = info['person_birthdate']
+        corporate.person_city = info['person_place_of_birth']
         self.producer.produce_to_topic(corporate=corporate)
 
     def handle_changes(self, corporate: Corporate, raw_text: str):
@@ -86,13 +86,13 @@ class RbExtractor:
         corporate.information = raw_text
         info = parse(raw_text,self.state)
         corporate.company_name = info['company_name']
-        corporate.adress.street = info['street']
-        corporate.adress.plz = info['plz']
-        corporate.adress.city = info['city']
-        corporate.person.first_name = info['person_first_name']
-        corporate.person.last_name = info['person_last_name']
-        corporate.person.birthday = info['person_birthdate']
-        corporate.person.city = info['person_place_of_birth']
+        corporate.adress_street = info['street']
+        corporate.adress_plz = info['plz']
+        corporate.adress_city = info['city']
+        corporate.person_first_name = info['person_first_name']
+        corporate.person_last_name = info['person_last_name']
+        corporate.person_birthday = info['person_birthdate']
+        corporate.person_city = info['person_place_of_birth']
         self.producer.produce_to_topic(corporate=corporate)
 
     def handle_deletes(self, corporate: Corporate):
