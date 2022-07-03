@@ -38,7 +38,10 @@ class RbExtractor:
                         line = rb_data.readline()
                     except Exception as ex:
                         log.error(f"Cause: {ex}")
-                        line = rb_data.readline()
+                        try:
+                            line = rb_data.readline()
+                        except:
+                            continue
                         continue
         
         # counter = 0
