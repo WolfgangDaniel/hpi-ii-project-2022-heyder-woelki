@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package bakdata.lobbyPerson.v1;
+
+message LobbyPerson {
+  uint32 id = 1;
+  string firstname = 2;
+  string lastname = 3;
+}
