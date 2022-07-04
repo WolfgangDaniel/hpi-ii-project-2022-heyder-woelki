@@ -25,8 +25,9 @@ def parse(info,state):
         #last_name
         person_last_name_end = person_first_name_start
         person_last_name_start_sim = info.rfind(";",0,person_last_name_end)-1
-        person_last_name_start_com = info.rfind(";",0,person_last_name_end)-1
-        person_last_name_start = max(person_last_name_start_sim,person_last_name_start_com)
+        person_last_name_start_com = info.rfind(",",0,person_last_name_end)-1
+        person_last_name_start_point = info.rfind(".",0,person_last_name_end)-1
+        person_last_name_start = max(person_last_name_start_sim,person_last_name_start_com,person_last_name_start_point)
         person_last_name = info[person_last_name_start+2:person_last_name_end]
         #place_of_birth
         person_place_of_birth_start = info.find(",",birthday_start)
