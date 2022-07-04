@@ -17,14 +17,14 @@ def parse(info,state):
     birthday_string = re.findall("\*\d{2}.\d{2}.\d{4}",info)[0]
     person_birthdate = birthday_string[1:]
     birthday_start = info.find(birthday_string)
-    if(state == "BERLIN"):
+    if(state == "be"):
         #first_name
         person_first_name_end = info.rfind(",",0,birthday_start)
         person_first_name_start = info.rfind(",",0,person_first_name_end)
         person_first_name = info[person_first_name_start+2:person_first_name_end]
         #last_name
         person_last_name_end = person_first_name_start
-        person_last_name_start = info.rfind(" ",0,person_last_name_end)-1
+        person_last_name_start = info.rfind(";",0,person_last_name_end)-1
         person_last_name = info[person_last_name_start+2:person_last_name_end]
         #place_of_birth
         person_place_of_birth_start = info.find(",",birthday_start)
