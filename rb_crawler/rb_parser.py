@@ -1,5 +1,7 @@
 import re 
 
+# problem brandenburg "br" hamburg "hb"
+
 def parse(info,state):
     company_name_start = 0
     company_name_end = info.find(",",company_name_start)
@@ -17,7 +19,7 @@ def parse(info,state):
     birthday_string = re.findall("\*\d{2}.\d{2}.\d{4}",info)[0]
     person_birthdate = birthday_string[1:]
     birthday_start = info.find(birthday_string)
-    if(state == "be"):
+    if(state == "be" or state == "br"):
         #first_name
         person_first_name_end = info.rfind(",",0,birthday_start)
         person_first_name_start = info.rfind(",",0,person_first_name_end)
@@ -27,7 +29,8 @@ def parse(info,state):
         person_last_name_start_sim = info.rfind(";",0,person_last_name_end)-1
         person_last_name_start_com = info.rfind(",",0,person_last_name_end)-1
         person_last_name_start_point = info.rfind(".",0,person_last_name_end)-1
-        person_last_name_start = max(person_last_name_start_sim,person_last_name_start_com,person_last_name_start_point)
+        person_last_name_start_doublepoint = info.rfind(":",0,person_last_name_end)-1
+        person_last_name_start = max(person_last_name_start_sim,person_last_name_start_com,person_last_name_start_point,person_last_name_start_doublepoint)
         person_last_name = info[person_last_name_start+2:person_last_name_end]
         #place_of_birth
         person_place_of_birth_start = info.find(",",birthday_start)
@@ -44,7 +47,12 @@ def parse(info,state):
         person_first_name = info[person_first_name_start+2:person_first_name_end]
         #last_name
         person_last_name_end = person_first_name_start
-        person_last_name_start = info.rfind(" ",0,person_last_name_end)-1
+        #person_last_name_start = info.rfind(" ",0,person_last_name_end)-1
+        person_last_name_start_sim = info.rfind(";",0,person_last_name_end)-1
+        person_last_name_start_com = info.rfind(",",0,person_last_name_end)-1
+        person_last_name_start_point = info.rfind(".",0,person_last_name_end)-1
+        person_last_name_start_doublepoint = info.rfind(":",0,person_last_name_end)-1
+        person_last_name_start = max(person_last_name_start_sim,person_last_name_start_com,person_last_name_start_point,person_last_name_start_doublepoint)
         person_last_name = info[person_last_name_start+2:person_last_name_end]
     return {"company_name": company_name,
     "city": company_address_city,
