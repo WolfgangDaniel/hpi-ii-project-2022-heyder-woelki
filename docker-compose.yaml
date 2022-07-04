@@ -87,7 +87,7 @@ services:
     volumes:
       - ./kowl-config.yaml:/etc/kowl/kowl-config.yaml
     ports:
-      - "8080:8080"
+      - "8084:8084"
     entrypoint: ./kowl --config.filepath=/etc/kowl/kowl-config.yaml
     depends_on:
       - kafka
