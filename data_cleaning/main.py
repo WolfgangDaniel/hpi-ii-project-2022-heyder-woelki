@@ -3,7 +3,7 @@ import os
 
 import click
 
-from person_transformer.extractor import Extractor
+from data_cleaning.extractor import Extractor
 
 logging.basicConfig(
     level=os.environ.get("LOGLEVEL", "INFO"), format="%(asctime)s | %(name)s | %(levelname)s | %(message)s"

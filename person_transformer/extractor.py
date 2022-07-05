@@ -50,7 +50,7 @@ class Extractor:
                     lobbyPerson.firstname = name[name.find(",")+2:]
                     lobbyPerson.lastname = name[:name.find(",")] 
                     lobbyPerson.lobbyCompanyName = lobby_event.companyName
-                self.lobby_person_producer.produce_to_topic(lobbyPerson=lobbyPerson)
+                    self.lobby_person_producer.produce_to_topic(lobbyPerson=lobbyPerson)
                 lobby_id += 1
         except Exception as ex:
             log.error(f"Cause: {ex}")

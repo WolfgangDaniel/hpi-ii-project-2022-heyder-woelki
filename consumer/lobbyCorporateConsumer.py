@@ -10,10 +10,10 @@ log = logging.getLogger(__name__)
 class LobbyCorporateConsumer:
 
     def consume(self):
-        msg_corporate_events = consume_topic('corporate-events', Corporate, 'new-consumer5')
+        msg_corporate_events = consume_topic('corporate-events', Corporate, 'new-consumer7')
         log.info("Corporate events consumed.")
         print(msg_corporate_events[0])
-        msg_lobby_events = consume_topic('lobby-events', Lobby, 'new-consumer5')
+        msg_lobby_events = consume_topic('lobby-events', Lobby, 'new-consumer7')
         log.info("Lobby events consumed.")
         print(msg_lobby_events[0])
 

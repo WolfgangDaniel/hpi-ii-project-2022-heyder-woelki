@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package bakdata.person.v1;
+
+message Person {
+  uint32 id = 1;
+  string firstname = 2;
+  string lastname = 3;
+  string city = 4;
+  string birthdate = 5;
+  repeated string corporateName = 6;
+  repeated string corporateID = 7;
+  repeated string lobbyCompanyName = 8;
+}
