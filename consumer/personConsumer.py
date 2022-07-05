@@ -10,10 +10,10 @@ log = logging.getLogger(__name__)
 class PersonConsumer:
 
     def consume(self):
-        msg_corporate_person = consume_topic('corporate-person', CorporatePerson, 'person-consumer40')
+        msg_corporate_person = consume_topic('corporate-person', CorporatePerson, 'person-consumer3')
         log.info("Corporate persons consumed.")
         print(msg_corporate_person[0])
-        msg_lobby_person = consume_topic('lobby-person', LobbyPerson, 'person-consumer40')
+        msg_lobby_person = consume_topic('lobby-person', LobbyPerson, 'person-consumer3')
         log.info("Lobby persons consumed.")
         print(msg_lobby_person[0])
 

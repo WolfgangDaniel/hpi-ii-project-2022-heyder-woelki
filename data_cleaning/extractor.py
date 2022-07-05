@@ -94,18 +94,19 @@ class Extractor:
             person_dic['lobbyCompanyName'] = ""
             personList.append(person_dic)
         
-        person_df_pre_shuffeled = pd.DataFrame(personList)
-        person_df = person_df_pre_shuffeled.sample(frac=1).reset_index()
+        person_df_pre_sorted = pd.DataFrame(personList)
+        person_df = person_df_pre_sorted.sort_values(by='lastname')
+        # person_df = person_df_pre_shuffeled.sample(frac=1).reset_index()
         print(person_df.head())
         duplicate_counter = 0
         already_added = []
         person_id = 0
-        for i in range(10000):
+        for i in range(50000):
             if (i in already_added):
                 continue
             person = person_df.loc[i]
             matches = []
-            for j in range(i+1,10000):
+            for j in range(i+1,i+100):
                 if (j in already_added):
                     continue
                 compare = person_df.loc[j]
