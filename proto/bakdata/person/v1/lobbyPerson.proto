@@ -6,4 +6,5 @@ message LobbyPerson {
   uint32 id = 1;
   string firstname = 2;
   string lastname = 3;
+  string lobbyCompanyName = 4;
 }

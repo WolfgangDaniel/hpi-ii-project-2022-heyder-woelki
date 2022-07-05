@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#bakdata/person/v1/lobbyPerson.proto\x12\x16\x62\x61kdata.lobbyPerson.v1\">\n\x0bLobbyPerson\x12\n\n\x02id\x18\x01 \x01(\r\x12\x11\n\tfirstname\x18\x02 \x01(\t\x12\x10\n\x08lastname\x18\x03 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#bakdata/person/v1/lobbyPerson.proto\x12\x16\x62\x61kdata.lobbyPerson.v1\"X\n\x0bLobbyPerson\x12\n\n\x02id\x18\x01 \x01(\r\x12\x11\n\tfirstname\x18\x02 \x01(\t\x12\x10\n\x08lastname\x18\x03 \x01(\t\x12\x18\n\x10lobbyCompanyName\x18\x04 \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'bakdata.person.v1.lobbyPerson_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _LOBBYPERSON._serialized_start=63
-  _LOBBYPERSON._serialized_end=125
+  _LOBBYPERSON._serialized_end=151
 # @@protoc_insertion_point(module_scope)
