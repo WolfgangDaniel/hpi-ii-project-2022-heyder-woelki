@@ -31,7 +31,7 @@ class CleanPersonProducer:
 
     def produce_to_topic(self, person: Person):
         self.producer.produce(
-            topic='person1', partition=-1, key=str(person.id), value=person, on_delivery=self.delivery_report
+            topic='person', partition=-1, key=str(person.id), value=person, on_delivery=self.delivery_report
         )
 
         # It is a naive approach to flush after each produce this can be optimised
