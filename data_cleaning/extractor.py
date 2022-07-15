@@ -99,9 +99,10 @@ class Extractor:
         # person_df = person_df_pre_shuffeled.sample(frac=1).reset_index()
         print(person_df.head())
         duplicate_counter = 0
+        lobby_coperate_match = 0
         already_added = []
         person_id = 0
-        for i in range(50000):
+        for i in range(len(person_df)):
             if (i in already_added):
                 continue
             person = person_df.loc[i]
@@ -119,6 +120,10 @@ class Extractor:
                     if(person['city'] == "" or compare['city'] == ""):
                         if(person['birthdate'] == "" or compare['birthdate'] == ""):
                             duplicate_counter +=1
+                            lobby_coperate_match +=1
+                            print("found coperate lobby match:")
+                            print(person)
+                            print(compare)
                             matches.append(compare)
                             already_added.append(j)
                         else:
@@ -142,6 +147,7 @@ class Extractor:
             matches = []
             person_id +=1
         print('matches: ',duplicate_counter)
+        print('lobby corperate matches: ',duplicate_counter)
             
 
 
