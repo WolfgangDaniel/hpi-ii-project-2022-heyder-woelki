@@ -4,6 +4,7 @@ import numpy as np
 import recordlinkage
 import pandas_dedupe
 from pyjarowinkler import distance
+from tabulate import tabulate
 
 from consumer.personConsumer import PersonConsumer
 from build.gen.bakdata.person.v1.person_pb2 import Person
@@ -75,7 +76,8 @@ class Extractor:
         for person in msg_lobby_person:
             person_dic = {}
             person_dic['firstname'] = person.firstname
-            person_dic['lastname'] = person.lastname
+            lastname = person.lastname
+            person_dic['lastname'] = lastname.replace(" ", "")
             person_dic['city'] = ""
             person_dic['birthdate'] = ""
             person_dic['corporateName'] = ""
@@ -86,7 +88,8 @@ class Extractor:
             person_dic = {}
             #print(person)
             person_dic['firstname'] = person.firstname
-            person_dic['lastname'] = person.lastname
+            lastname = person.lastname
+            person_dic['lastname'] = lastname.replace(" ", "")
             person_dic['city'] = person.city
             person_dic['birthdate'] = person.birthdate
             person_dic['corporateName'] = person.corporateName
@@ -94,23 +97,29 @@ class Extractor:
             person_dic['lobbyCompanyName'] = ""
             personList.append(person_dic)
         
-        person_df_pre_sorted = pd.DataFrame(personList)
-        person_df = person_df_pre_sorted.sort_values(by='lastname')
-        # person_df = person_df_pre_shuffeled.sample(frac=1).reset_index()
-        print(person_df.head())
+        person_df_pre_shuffeled = pd.DataFrame(personList)
+        # print(tabulate(person_df_pre_sorted.tail(), headers="keys", tablefmt="psql"))
+        person_df_pre_sorted = person_df_pre_shuffeled.sample(frac=1).reset_index(drop=True)
+        person_df = person_df_pre_sorted.sort_values(by='lastname').reset_index(drop=True)
+        
+        print(tabulate(person_df.tail(100), headers="keys", tablefmt="psql"))
         duplicate_counter = 0
         lobby_coperate_match = 0
         already_added = []
         person_id = 0
-        for i in range(len(person_df)):
+        for i in reversed(range(len(person_df))):
             if (i in already_added):
                 continue
             person = person_df.loc[i]
+            if person['lobbyCompanyName'] != "":
+                print('LOBBY YEAH')
+            #print("Person: ", person)
             matches = []
-            for j in range(i+1,i+100):
+            for j in range(i-100,i):
                 if (j in already_added):
                     continue
                 compare = person_df.loc[j]
+                #print("Compared Person: ", compare)
                 try:
                     firstname_distance = distance.get_jaro_distance(person['firstname'],compare['firstname'],winkler=True,scaling=0.1)
                     lastname_distance = distance.get_jaro_distance(person['lastname'],compare['lastname'],winkler=True,scaling=0.1)
@@ -120,12 +129,13 @@ class Extractor:
                     if(person['city'] == "" or compare['city'] == ""):
                         if(person['birthdate'] == "" or compare['birthdate'] == ""):
                             duplicate_counter +=1
-                            lobby_coperate_match +=1
-                            print("found coperate lobby match:")
-                            print(person)
-                            print(compare)
                             matches.append(compare)
                             already_added.append(j)
+                            if((person['lobbyCompanyName']==""and compare['lobbyCompanyName']!="") or (person['lobbyCompanyName']!=""and compare['lobbyCompanyName']=="")):
+                                print("found lobby company match:")
+                                print(person)
+                                print(compare)
+                                lobby_coperate_match +=1
                         else:
                             if(person['birthdate'] == compare['birthdate']):
                                 duplicate_counter +=1
